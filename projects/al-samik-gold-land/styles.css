@@ -5,7 +5,8 @@
   --white: #ffffff;
   --forest: #173c31;
   --forest-dark: #0d2821;
-  --gold: #d6ad54;
+  --gold: #946b18;
+  --gold-fill: #d6ad54;
   --gold-light: #f0d48f;
   --line: #d9dfdc;
   --focus: #2f7d67;
@@ -35,6 +36,7 @@ a {
 img {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 
 .site-header {
@@ -52,21 +54,19 @@ img {
 
 .brand {
   display: inline-flex;
+  min-height: 44px;
   align-items: center;
   gap: 10px;
   text-decoration: none;
 }
 
-.brand-mark {
-  display: grid;
-  width: 42px;
-  height: 42px;
-  place-items: center;
-  border: 1px solid rgba(255, 255, 255, 0.65);
-  border-radius: 50%;
-  color: var(--gold-light);
-  font-family: Georgia, serif;
-  font-weight: 700;
+.brand-logo {
+  width: 48px;
+  height: 48px;
+  padding: 2px;
+  border-radius: 6px;
+  background: var(--white);
+  object-fit: contain;
 }
 
 .brand strong,
@@ -87,7 +87,7 @@ img {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  min-height: 42px;
+  min-height: 44px;
   padding: 8px 14px;
   border: 1px solid rgba(255, 255, 255, 0.58);
   border-radius: 6px;
@@ -149,6 +149,7 @@ img {
   font-size: 13px;
   font-weight: 700;
 }
+.hero .eyebrow { color: var(--gold-light); }
 
 .hero h1 {
   max-width: 720px;
@@ -213,7 +214,7 @@ img {
 
 .button-primary {
   color: #152018;
-  background: var(--gold);
+  background: var(--gold-fill);
 }
 
 .button-primary:hover {
@@ -246,8 +247,8 @@ img {
   right: 50%;
   bottom: 18px;
   display: grid;
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   place-items: center;
   transform: translateX(50%);
   color: var(--white);
@@ -393,7 +394,7 @@ h2 {
 }
 
 .map-link:hover {
-  border-color: var(--gold);
+  border-color: var(--gold-light);
   background: rgba(255, 255, 255, 0.06);
 }
 
@@ -460,9 +461,17 @@ footer {
 }
 
 footer a {
+  display: inline-flex;
+  min-width: 44px;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
   color: inherit;
   text-decoration: none;
 }
+
+.facebook-group-link { gap: 7px; }
+.facebook-group-link svg { width: 16px; height: 16px; }
 
 footer a:hover {
   color: var(--white);
@@ -634,7 +643,7 @@ a:focus-visible {
     gap: 9px;
     border-radius: 6px;
     color: #152018;
-    background: var(--gold);
+    background: var(--gold-fill);
     box-shadow: 0 10px 26px rgba(13, 40, 33, 0.24);
     text-decoration: none;
     font-size: 14px;

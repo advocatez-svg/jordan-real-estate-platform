@@ -6,7 +6,8 @@
   --forest: #173c31;
   --forest-dark: #0d2821;
   --red: #c8192e;
-  --gold: #d6ad54;
+  --gold: #946b18;
+  --gold-fill: #d6ad54;
   --gold-light: #f0d48f;
   --line: #d8dfdc;
 }
@@ -22,7 +23,7 @@ body {
   letter-spacing: 0;
 }
 a { color: inherit; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 
 .wide-inner {
   width: min(1180px, calc(100% - 40px));
@@ -46,6 +47,7 @@ img { display: block; max-width: 100%; }
 .site-header-solid { color: var(--ink); }
 .platform-brand {
   display: inline-flex;
+  min-height: 44px;
   align-items: center;
   gap: 11px;
   text-decoration: none;
@@ -53,8 +55,9 @@ img { display: block; max-width: 100%; }
 .platform-brand img {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
-  background: #f7f3ea;
+  border-radius: 6px;
+  background: var(--white);
+  object-fit: contain;
 }
 .platform-brand strong,
 .platform-brand small { display: block; }
@@ -70,6 +73,9 @@ img { display: block; max-width: 100%; }
   gap: 24px;
 }
 .main-nav a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
   text-decoration: none;
   font-size: 13px;
   font-weight: 700;
@@ -113,6 +119,7 @@ img { display: block; max-width: 100%; }
   font-size: 13px;
   font-weight: 700;
 }
+.platform-hero .eyebrow { color: var(--gold-light); }
 .platform-hero h1 {
   max-width: 760px;
   margin: 0;
@@ -151,7 +158,7 @@ img { display: block; max-width: 100%; }
 .value-grid svg,
 .scope-items svg,
 .text-link svg { width: 19px; height: 19px; flex: 0 0 auto; }
-.button-primary { color: #152018; background: var(--gold); }
+.button-primary { color: #152018; background: var(--gold-fill); }
 .button-primary:hover { background: var(--gold-light); }
 .button-glass {
   border-color: rgba(255,255,255,.55);
@@ -205,6 +212,7 @@ h2 {
 .project-facts dd { margin: 2px 0 0; font-weight: 700; }
 .text-link {
   display: inline-flex;
+  min-height: 44px;
   align-items: center;
   gap: 8px;
   color: var(--forest);
@@ -251,7 +259,7 @@ h2 {
 .footer-grid { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
 .footer-brand img { width: 46px; height: 46px; }
 .site-footer nav { display: flex; flex-wrap: wrap; gap: 22px; }
-.site-footer nav a { color: rgba(255,255,255,.66); font-size: 12px; text-decoration: none; }
+.site-footer nav a { display: inline-flex; min-width: 44px; min-height: 44px; align-items: center; justify-content: center; color: rgba(255,255,255,.78); font-size: 12px; text-decoration: none; }
 .site-footer nav a:hover { color: var(--white); }
 
 .content-main {
@@ -287,6 +295,8 @@ h2 {
 .contact-row small { display: block; }
 .contact-row small { color: var(--muted); }
 .contact-row .arrow { width: 18px; color: var(--muted); }
+
+a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 
 @media (max-width: 900px) {
   .platform-hero h1 { font-size: 44px; }
