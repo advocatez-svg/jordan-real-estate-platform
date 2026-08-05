@@ -56,7 +56,7 @@ for (const item of opportunities.filter(item => item.area_confidence === "needs_
   if (item.ppm || item.discount_vs_reference_pct || item.price_comparison_available !== false) fail(`ambiguous opportunity ${item.post_number} exposes an unsupported price comparison`);
 }
 if (opportunities.length !== 21) fail(`expected 21 opportunities, found ${opportunities.length}`);
-if (guides.length !== 5) fail(`expected 5 guides, found ${guides.length}`);
+if (guides.length !== 6) fail(`expected 6 guides, found ${guides.length}`);
 
 const opportunitiesHtml = fs.readFileSync(path.join(root, "opportunities", "index.html"), "utf8");
 const cardCount = (opportunitiesHtml.match(/class="opportunity-card"/g) || []).length;
