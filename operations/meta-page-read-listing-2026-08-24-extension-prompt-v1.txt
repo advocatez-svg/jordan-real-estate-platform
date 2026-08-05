@@ -1,0 +1,27 @@
+TASK — Schedule one Facebook Page awareness post.
+
+SOURCE OF TRUTH
+Use the exact text in:
+https://github.com/advocatez-svg/jordan-real-estate-platform/blob/main/operations/page-post-read-listing-before-contact-2026-08-24-v1.md
+
+SCHEDULE
+Monday, August 24, 2026 at 12:30 PM Asia/Amman.
+
+DESTINATION AND IDENTITY
+- Publish as: Jordan Real Estate Manager (singular).
+- Destination: Facebook Page only.
+- Do NOT publish to the Facebook Group.
+- Do NOT publish to Instagram.
+- Do NOT create an ad or boost the post.
+
+CONTENT
+- Paste the supplied text exactly.
+- Keep the guide URL and Facebook Group URL visible.
+- Let Facebook generate a standard link preview from the guide URL; do not attach unrelated media.
+- Do not change the facts, wording, links, hashtag count, or schedule.
+
+BEFORE SCHEDULING
+Confirm the identity, Page-only destination, date, time, and both URLs. Stop and report if any is wrong.
+
+AFTER SCHEDULING
+Verify the item appears once in the Page scheduled queue and report its exact scheduled time.
