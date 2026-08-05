@@ -342,9 +342,49 @@ function renderOpportunities() {
 </html>`;
 }
 
+function homepageOpportunityCandidates() {
+  const selectedAreas = new Set();
+  return opportunities
+    .filter(item => item.price_comparison_available !== false && item.area_confidence !== "needs_area_verification")
+    .sort((left, right) => Number(right.discount_vs_reference_pct || 0) - Number(left.discount_vs_reference_pct || 0))
+    .filter((item) => {
+      if (selectedAreas.has(item.area)) return false;
+      selectedAreas.add(item.area);
+      return true;
+    })
+    .slice(0, 3);
+}
+
+function homepageOpportunityCard(item) {
+  const floor = item.floor && item.floor !== "الطابق غير مذكور" ? ` · ${esc(item.floor)}` : "";
+  return `<article class="home-opportunity">
+            <p class="content-meta">${esc(item.area)}${floor}</p>
+            <h3>${esc(displayTitle(item))}</h3>
+            <dl><div><dt>السعر</dt><dd>${number(item.price)} د.أ</dd></div><div><dt>المساحة</dt><dd>${number(item.size)} م²</dd></div><div><dt>سعر المتر</dt><dd>${number(item.ppm)} د.أ</dd></div></dl>
+            <a class="text-link" href="/opportunities/">التفاصيل والمصدر <i data-lucide="arrow-left" aria-hidden="true"></i></a>
+          </article>`;
+}
+
+function refreshHomepageOpportunities() {
+  const output = path.join(root, "index.html");
+  const current = fs.readFileSync(output, "utf8");
+  const start = "<!-- GENERATED:HOME_OPPORTUNITIES:START -->";
+  const end = "<!-- GENERATED:HOME_OPPORTUNITIES:END -->";
+  const cards = homepageOpportunityCandidates().map(homepageOpportunityCard).join("\n");
+  if (!cards || !current.includes(start) || !current.includes(end)) {
+    throw new Error("Homepage opportunity markers or eligible opportunities are missing.");
+  }
+  const refreshed = current.replace(
+    new RegExp(`${start}[\\s\\S]*?${end}`),
+    `${start}\n          ${cards}\n          ${end}`
+  );
+  write("index.html", refreshed);
+}
+
 write("guides/index.html", renderGuidesIndex());
 for (const guide of guides) write(`guides/${guide.slug}/index.html`, renderGuide(guide));
 write("opportunities/index.html", renderOpportunities());
+refreshHomepageOpportunities();
 
 const staticPaths = [
   "/",
