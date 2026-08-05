@@ -1,0 +1,32 @@
+TASK — Optimize the Facebook Group conversion setup.
+
+GROUP
+«منصة العقارات الأردنية | Jordan Real Estate Platform»
+https://www.facebook.com/groups/JordanPropertyGroup
+
+SOURCE OF TRUTH
+Use the exact approved content in:
+https://github.com/advocatez-svg/jordan-real-estate-platform/blob/main/operations/group-growth-assets-v1.md
+
+APPLY ONLY THESE GROUP SETTINGS
+1. Replace the group description with “الوصف المقترح للمجموعة”.
+2. Create the “المنشور المثبت” exactly and pin/feature it in the group.
+3. Add the three listed membership questions in the same order.
+4. Add the six listed rules in the same order.
+
+DO NOT
+- Change privacy, visibility, group name, URL, administrators, member approval settings, or moderation automation.
+- Remove existing posts, rules, questions, members, admins, or scheduled content.
+- Publish any property listing or Page post.
+- Invite people or send messages.
+- Add a question that asks for a phone number, address, identity document, or other sensitive personal data.
+
+VERIFY BEFORE SAVING
+- Destination is the named Facebook Group, not either Facebook Page.
+- The description has the correct website and group links.
+- The pinned post contains both jordanpropertyjo.com links.
+- All three questions and six rules are present.
+- Stop and report if Meta only allows replacing existing questions/rules and would delete them; do not delete anything automatically.
+
+AFTER SAVING
+Report the resulting description, pinned-post status, questions, and rules.
