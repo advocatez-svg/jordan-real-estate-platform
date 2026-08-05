@@ -26,7 +26,7 @@ function ensureDir(dir) {
 function write(relativePath, content) {
   const output = path.join(root, relativePath);
   ensureDir(path.dirname(output));
-  fs.writeFileSync(output, `${content.trimStart().replace(/\r?\n/g, "\r\n")}\r\n`, "utf8");
+  fs.writeFileSync(output, `${content.trim().replace(/\r?\n/g, "\r\n")}\r\n`, "utf8");
 }
 
 function head({ title, description, pathname, image = "/assets/al-samik-social.jpg", type = "website" }) {
