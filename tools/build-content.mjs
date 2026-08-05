@@ -155,6 +155,25 @@ function articleSections(guide) {
   </section>`).join("\n");
 }
 
+const relatedGuideSlugs = {
+  "price-per-sqm": ["land-buying-checklist", "buying-remotely"],
+  "land-buying-checklist": ["price-per-sqm", "sell-property-right"],
+  "buying-remotely": ["land-buying-checklist", "price-per-sqm"],
+  "property-handover-checklist": ["price-per-sqm", "sell-property-right"],
+  "sell-property-right": ["price-per-sqm", "property-handover-checklist"]
+};
+
+function relatedGuides(guide) {
+  const slugs = relatedGuideSlugs[guide.slug] || guides.filter(item => item.slug !== guide.slug).slice(0, 2).map(item => item.slug);
+  const items = slugs.map(slug => guides.find(item => item.slug === slug)).filter(Boolean);
+  return `<section class="related-guides" aria-labelledby="related-guides-title">
+  <h2 id="related-guides-title">أدلة ذات صلة</h2>
+  <div class="related-guide-grid">
+    ${items.map(item => `<a href="/guides/${item.slug}/"><span>${esc(item.category)}</span><strong>${esc(item.title)}</strong><i data-lucide="arrow-left" aria-hidden="true"></i></a>`).join("\n")}
+  </div>
+  <a class="text-link" href="/guides/">تصفح كل الأدلة <i data-lucide="arrow-left" aria-hidden="true"></i></a>
+</section>`;
+}
 function renderGuide(guide) {
   const pathname = `/guides/${guide.slug}/`;
   const jsonLd = JSON.stringify({
@@ -187,6 +206,7 @@ function renderGuide(guide) {
           <i data-lucide="info" aria-hidden="true"></i>
           <div><strong>ملاحظة مهمة</strong><p>هذا محتوى توعوي عام، وليس تقييماً عقارياً أو استشارة قانونية أو مالية. تحقق من سند التسجيل والجهات الرسمية واستعن بمختص قبل الالتزام.</p></div>
         </aside>
+        ${relatedGuides(guide)}
       </div>
     </article>
     ${joinBand(`guide-${guide.slug}`)}
