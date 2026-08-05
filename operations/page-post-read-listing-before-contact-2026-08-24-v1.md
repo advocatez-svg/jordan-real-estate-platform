@@ -18,7 +18,7 @@
 - متى تصبح مقارنة سعر المتر عادلة؟
 
 جهزنا الدليل كاملًا بشكل مختصر وعملي:
-https://jordanpropertyjo.com/guides/read-listing-before-contact/
+https://jordanpropertyjo.com/guides/read-listing-before-contact/?utm_source=facebook&utm_medium=organic&utm_campaign=page_guides_aug24&utm_content=read_listing
 
 تابعوا الفرص والدلائل الجديدة عبر مجموعة منصة العقارات الأردنية:
 https://www.facebook.com/groups/JordanPropertyGroup
