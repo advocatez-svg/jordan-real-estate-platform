@@ -5,6 +5,7 @@
 من جذر مستودع الموقع:
 
 ```powershell
+node tools/import-source-opportunities.mjs
 node tools/build-content.mjs
 node tools/qa-content.mjs
 ```
