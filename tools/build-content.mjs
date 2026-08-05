@@ -158,7 +158,8 @@ function articleSections(guide) {
 }
 
 const relatedGuideSlugs = {
-  "price-per-sqm": ["land-buying-checklist", "buying-remotely"],
+  "price-per-sqm": ["read-listing-before-contact", "land-buying-checklist"],
+  "read-listing-before-contact": ["price-per-sqm", "land-buying-checklist"],
   "land-buying-checklist": ["price-per-sqm", "sell-property-right"],
   "buying-remotely": ["land-buying-checklist", "price-per-sqm"],
   "property-handover-checklist": ["price-per-sqm", "sell-property-right"],
