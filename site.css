@@ -396,6 +396,9 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 }
 .guide-card-media img { width: 100%; aspect-ratio: 1; object-fit: cover; }
 .guide-card-copy { align-self: center; }
+.content-source-note { display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; color: var(--muted); font-size: 12px; }
+.content-source-note svg { width: 16px; flex: 0 0 auto; margin-top: 2px; color: var(--forest); }
+
 .content-meta {
   margin: 0 0 9px;
   color: var(--gold);
@@ -414,7 +417,10 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
   grid-template-columns: minmax(0,1.2fr) minmax(280px,.6fr);
 }
 .article-hero img { width: 100%; aspect-ratio: 1; border-radius: 6px; object-fit: cover; }
-.article-hero .content-meta { color: var(--gold-light); }
+.article-hero .content-source-note { display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; color: var(--muted); font-size: 12px; }
+.content-source-note svg { width: 16px; flex: 0 0 auto; margin-top: 2px; color: var(--forest); }
+
+.content-meta { color: var(--gold-light); }
 .article-shell { width: min(860px, calc(100% - 40px)); margin: 0 auto; padding: 68px 0 82px; }
 .article-section {
   display: grid;
@@ -562,7 +568,10 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
   border-top: 3px solid var(--forest);
   background: var(--paper);
 }
-.home-opportunity .content-meta { margin-bottom: 7px; }
+.home-opportunity .content-source-note { display: flex; align-items: flex-start; gap: 8px; margin: 14px 0 0; color: var(--muted); font-size: 12px; }
+.content-source-note svg { width: 16px; flex: 0 0 auto; margin-top: 2px; color: var(--forest); }
+
+.content-meta { margin-bottom: 7px; }
 .home-opportunity h3 { min-height: 58px; margin: 0; font-size: 17px; }
 .home-opportunity dl { display: grid; gap: 7px; margin: 18px 0; }
 .home-opportunity dl div { display: flex; justify-content: space-between; gap: 16px; border-bottom: 1px solid var(--line); }

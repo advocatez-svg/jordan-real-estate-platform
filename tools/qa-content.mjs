@@ -49,6 +49,12 @@ for (const file of htmlFiles) {
 
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
 const guides = JSON.parse(fs.readFileSync(path.join(root, "data", "guides-v1.json"), "utf8"));
+const opportunityMeta = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-meta-v1.json"), "utf8"));
+if (!/^[0-9a-f]{40}$/i.test(String(opportunityMeta.source_commit || ""))) fail("opportunity metadata has no valid source commit");
+if (opportunityMeta.total !== opportunities.length) fail("opportunity metadata total does not match data");
+for (const item of opportunities.filter(item => item.area_confidence === "needs_area_verification")) {
+  if (item.ppm || item.discount_vs_reference_pct || item.price_comparison_available !== false) fail(`ambiguous opportunity ${item.post_number} exposes an unsupported price comparison`);
+}
 if (opportunities.length !== 21) fail(`expected 21 opportunities, found ${opportunities.length}`);
 if (guides.length !== 5) fail(`expected 5 guides, found ${guides.length}`);
 

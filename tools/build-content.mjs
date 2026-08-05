@@ -5,6 +5,8 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const guides = JSON.parse(fs.readFileSync(path.join(root, "data", "guides-v1.json"), "utf8"));
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
+const opportunityMetaPath = path.join(root, "data", "opportunities-meta-v1.json");
+const opportunityMeta = fs.existsSync(opportunityMetaPath) ? JSON.parse(fs.readFileSync(opportunityMetaPath, "utf8")) : null;
 
 const SITE = "https://jordanpropertyjo.com";
 const GROUP = "https://www.facebook.com/groups/JordanPropertyGroup";
@@ -24,7 +26,7 @@ function ensureDir(dir) {
 function write(relativePath, content) {
   const output = path.join(root, relativePath);
   ensureDir(path.dirname(output));
-  fs.writeFileSync(output, content.trimStart() + "\n", "utf8");
+  fs.writeFileSync(output, `${content.trimStart().replace(/\r?\n/g, "\r\n")}\r\n`, "utf8");
 }
 
 function head({ title, description, pathname, image = "/assets/al-samik-social.jpg", type = "website" }) {
@@ -236,6 +238,20 @@ function confidence(item) {
   return "سعر المتر محسوب على المساحة المعلنة ويحتاج مطابقة القوشان";
 }
 
+function pricePerSquareMeter(item) {
+  if (item.area_confidence === "needs_area_verification") {
+    return `<div><span>سعر المتر</span><strong>قيد التحقق</strong></div>`;
+  }
+  const label = item.area_confidence === "deed_area_extracted" ? "سعر المتر (القوشان)" : "سعر المتر (المعلن)";
+  return `<div><span>${label}</span><strong>${number(item.ppm)} د.أ</strong></div>`;
+}
+
+function priceReading(item) {
+  if (item.price_comparison_available === false || item.area_confidence === "needs_area_verification") {
+    return `<p class="price-reading price-reading-caution"><i data-lucide="circle-alert" aria-hidden="true"></i><span><strong>قراءة السعر:</strong> لا نعرض مقارنة مرجعية قبل تأكيد مساحة القوشان وفصل أي مساحة خارجية.</span></p>`;
+  }
+  return `<p class="price-reading"><i data-lucide="badge-percent" aria-hidden="true"></i><span><strong>قراءة أولية:</strong> أقل من مرجع أسعار العرض المتاح بنحو ${esc(item.discount_vs_reference_pct)}%، مع ضرورة التحقق من تفاصيل المقارنة.</span></p>`;
+}
 function opportunityCard(item) {
   return `<article class="opportunity-card" data-opportunity data-area="${esc(item.area)}">
     <div class="opportunity-top">
@@ -246,10 +262,10 @@ function opportunityCard(item) {
     <div class="opportunity-metrics">
       <div><span>السعر</span><strong>${number(item.price)} د.أ</strong></div>
       <div><span>المساحة</span><strong>${number(item.size)} م²</strong></div>
-      <div><span>سعر المتر</span><strong>${number(item.ppm)} د.أ</strong></div>
+      ${pricePerSquareMeter(item)}
     </div>
     <p class="opportunity-floor"><strong>الطابق:</strong> ${esc(item.floor)}</p>
-    <p class="price-reading"><i data-lucide="badge-percent" aria-hidden="true"></i><span><strong>قراءة أولية ملفتة:</strong> أقل من مرجع أسعار العرض المتاح بنحو ${esc(item.discount_vs_reference_pct)}%، مع ضرورة التحقق من تفاصيل المقارنة.</span></p>
+    ${priceReading(item)}
     <p class="area-note"><i data-lucide="ruler" aria-hidden="true"></i><span>${esc(confidence(item))}.</span></p>
     <div class="opportunity-actions">
       <a class="button button-compact button-primary" href="tel:${esc(item.phone)}"><i data-lucide="phone" aria-hidden="true"></i>${esc(item.phone)}</a>
@@ -259,10 +275,15 @@ function opportunityCard(item) {
   </article>`;
 }
 
+function sourceUpdateLabel() {
+  if (!opportunityMeta?.source_updated_at) return "";
+  return new Intl.DateTimeFormat("ar-JO", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(opportunityMeta.source_updated_at));
+}
 function renderOpportunities() {
   const areas = [...new Set(opportunities.map(item => item.area))];
   const title = "مخزون إعلانات عقارية للمراجعة";
   const description = "إعلانات عقارية منقولة من مصادرها الأصلية مع السعر والمساحة وسعر المتر. يجب التواصل مع المعلن للتأكد من التوفر.";
+  const sourceUpdate = sourceUpdateLabel();
   const itemList = JSON.stringify({
     "@context": "https://schema.org",
     "@type": "ItemList",
@@ -284,6 +305,7 @@ function renderOpportunities() {
           <p class="section-kicker">مخزون الرصد العقاري</p>
           <h1>إعلانات عقارية مختارة للمراجعة</h1>
           <p>هذه إعلانات من مخزون الرصد وقد تتغير حالتها. نعرض بيانات المصدر كما جُمعت، ويجب الاتصال بالمعلن للتأكد من التوفر والتفاصيل قبل أي قرار.</p>
+          ${sourceUpdate ? `<p class="content-source-note"><i data-lucide="history" aria-hidden="true"></i><span>آخر تغيير محفوظ في بيانات المصدر: ${sourceUpdate}. لا يعني ذلك ضمان أن الإعلان ما زال متاحاً.</span></p>` : ""}
         </div>
         <div class="content-hero-stat"><strong>${opportunities.length}</strong><span>إعلاناً في مخزون المراجعة</span></div>
       </div>
