@@ -1,0 +1,39 @@
+TASK — Schedule the current 21-property group publishing pack.
+
+SOURCE OF TRUTH
+Open and use exactly this file:
+https://github.com/advocatez-svg/jordan-real-estate-platform/blob/main/operations/current-inventory-group-posts-2026-08-17-to-23-v1.md
+
+SCOPE
+- Schedule exactly Posts 01–21.
+- Destination: the Facebook group «منصة العقارات الأردنية | Jordan Real Estate Platform» only.
+- Publisher identity: Jordan Real Estate Managers (plural).
+- Do NOT publish to the Facebook Page.
+- Do NOT publish to Instagram.
+- Do NOT create ads, boost posts, touch Meta campaigns, alter existing scheduled posts, or change any previous content.
+
+SCHEDULE
+- Posts 01–03: Sunday, August 17, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 04–06: Monday, August 18, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 07–09: Tuesday, August 19, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 10–12: Wednesday, August 20, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 13–15: Thursday, August 21, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 16–18: Friday, August 22, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+- Posts 19–21: Saturday, August 23, 2026 at 3:00 PM, 6:00 PM, 9:00 PM Asia/Amman.
+
+STRICT CONTENT RULES
+- Copy each post body exactly, including phone number, website link, Telegram link, transparency note, and final original listing URL.
+- The original listing URL must remain the final line of each post.
+- Do not add images, unrelated media, or new claims.
+- Do not change a “قيد التحقق” statement into a price-per-square-meter or “deal” claim.
+- Preserve every price and floor exactly as supplied.
+
+SAFETY CHECKS BEFORE SCHEDULING
+1. Confirm the selected identity is Jordan Real Estate Managers (plural).
+2. Confirm the selected destination is the group only, not Page, not Instagram.
+3. Confirm all 21 post bodies include their final original listing link.
+4. Stop and report before creating anything if the identity, destination, dates, or any source URL is wrong.
+
+AFTER SCHEDULING
+- Open the scheduled queue and verify all 21 rows, date/time, group-only destination, and publisher identity.
+- Report the verification table only. Do not publish anything immediately.
