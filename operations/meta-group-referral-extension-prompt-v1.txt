@@ -1,0 +1,24 @@
+TASK — Schedule the three supplied group referral posts.
+
+SOURCE OF TRUTH
+https://github.com/advocatez-svg/jordan-real-estate-platform/blob/main/operations/group-referral-posts-2026-08-23-to-09-06-v1.md
+
+DESTINATION
+- Facebook Group only: منصة العقارات الأردنية | Jordan Real Estate Platform.
+- Publisher identity: Jordan Real Estate Managers (plural).
+- Do NOT publish to a Facebook Page or Instagram.
+- Do NOT create ads, boosts, invitations, or messages.
+
+SCHEDULE
+- Sunday, August 23, 2026 at 12:00 PM Asia/Amman.
+- Sunday, August 30, 2026 at 12:00 PM Asia/Amman.
+- Sunday, September 6, 2026 at 12:00 PM Asia/Amman.
+
+RULES
+- Copy the supplied text exactly.
+- Keep the Facebook Group link unchanged.
+- Do not attach images or add claims.
+- Do not change existing scheduled posts or campaigns.
+
+VERIFY
+Before saving each post, confirm group-only destination, plural publisher identity, date, time, and link. After scheduling, report all three queue entries.
