@@ -1,0 +1,25 @@
+TASK — Schedule exactly the five supplied group engagement posts.
+
+SOURCE OF TRUTH
+https://github.com/advocatez-svg/jordan-real-estate-platform/blob/main/operations/group-engagement-posts-2026-08-19-to-09-02-v1.md
+
+DESTINATION AND IDENTITY
+- Facebook Group only: منصة العقارات الأردنية | Jordan Real Estate Platform.
+- Publisher identity: Jordan Real Estate Managers (plural).
+- Do NOT publish to a Facebook Page or Instagram.
+- Create plain text posts only. Do not create a native poll, ad, boost, invitation, or message.
+
+SCHEDULE
+- Wednesday, August 19, 2026 at 12:00 PM Asia/Amman.
+- Saturday, August 22, 2026 at 12:00 PM Asia/Amman.
+- Wednesday, August 26, 2026 at 12:00 PM Asia/Amman.
+- Saturday, August 29, 2026 at 12:00 PM Asia/Amman.
+- Wednesday, September 2, 2026 at 12:00 PM Asia/Amman.
+
+RULES
+- Copy each supplied text exactly.
+- Do not add property listings, links, hashtags, images, claims, or contact details.
+- Do not modify any existing scheduled post, campaign, group setting, or referral post.
+
+VERIFY
+Before scheduling, confirm group-only destination, plural identity, and each date/time. After saving, report five scheduled queue entries and do not publish immediately.
