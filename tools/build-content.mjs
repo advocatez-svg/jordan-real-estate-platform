@@ -386,12 +386,24 @@ for (const guide of guides) write(`guides/${guide.slug}/index.html`, renderGuide
 write("opportunities/index.html", renderOpportunities());
 refreshHomepageOpportunities();
 
+// Project pages are discovered from disk, not listed by hand: the sitemap is
+// rewritten wholesale on every build and pushed by the sync workflow, so a
+// hand-maintained list silently drops any page nobody remembered to add here.
+function projectPaths() {
+  const dir = path.join(root, "projects");
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir, { withFileTypes: true })
+    .filter(entry => entry.isDirectory() && fs.existsSync(path.join(dir, entry.name, "index.html")))
+    .map(entry => `/projects/${entry.name}/`)
+    .sort();
+}
+
 const staticPaths = [
   "/",
   "/opportunities/",
   "/guides/",
   ...guides.map(guide => `/guides/${guide.slug}/`),
-  "/projects/al-samik-gold-land/",
+  ...projectPaths(),
   "/contact/",
   "/privacy/",
   "/disclosure/"
