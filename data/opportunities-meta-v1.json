@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "source_ref": "origin/main",
-  "source_commit": "2f8b3839dd3a15daecb526ee7c254c9809dd8d46",
-  "source_updated_at": "2026-08-04T20:25:34Z",
+  "source_ref": "HEAD",
+  "source_commit": "bc13a35b8d7b36377ed68a67f4bec20eabe3d493",
+  "source_updated_at": "2026-08-05T20:26:15Z",
   "source_files": [
     "data/top_deals.json",
     "data/standard_floor_top_deals.json",
@@ -13,5 +13,6 @@
     "standard-floor": 8,
     "middle-class": 8
   },
+  "selection_policy": "researcher-ranked top deals plus website validation",
   "total": 21
 }

@@ -56,6 +56,7 @@ function normalize(item, bucket, postNumber) {
 }
 
 function isEligible(item) {
+  if (item.approved_for_website === false || item.publish_to_website === false) return false;
   return number(item.price) >= 20000
     && number(item.size) >= 40
     && number(item.size) <= 650
@@ -102,6 +103,7 @@ const meta = {
   source_updated_at: updatedAt,
   source_files: sourceFiles.map(stream => stream.file),
   selected_counts: counts,
+  selection_policy: "researcher-ranked top deals plus website validation",
   total: selected.length
 };
 
