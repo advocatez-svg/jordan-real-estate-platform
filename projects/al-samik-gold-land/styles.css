@@ -739,3 +739,39 @@ a:focus-visible {
   .plot-media-grid { grid-template-columns: 1fr; }
   .plot-figure img { max-height: none; }
 }
+.route-panel {
+  display: grid;
+  gap: 16px;
+}
+
+.route-figure {
+  max-width: 390px;
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.24);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.route-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.route-figure figcaption {
+  padding: 10px 13px;
+  color: #263230;
+  font-size: 12px;
+  text-align: center;
+}
+
+.route-panel .map-link {
+  width: 100%;
+}
+
+@media (max-width: 860px) {
+  .route-figure {
+    max-width: 460px;
+  }
+}
