@@ -2,7 +2,9 @@ import fs from "node:fs";
 import path from "node:path";
 
 const root = path.resolve(import.meta.dirname, "..");
-const ignoredDirs = new Set([".git", "node_modules", "operations"]);
+// The scheduled sync checks out the research repository here temporarily.
+// It is input data, not part of the published website.
+const ignoredDirs = new Set([".git", "node_modules", "operations", "FROM-THE-FUTURE"]);
 const failures = [];
 
 function walk(dir) {
