@@ -591,7 +591,7 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 @media (max-width: 680px) {
   .main-nav { gap: 14px; }
   .main-nav a { font-size: 11px; }
-  .main-nav a:nth-child(n+3) { display: none; }
+  .main-nav a:nth-child(n+4) { display: none; }
   .content-hero { padding: 52px 0; }
   .content-hero h1,
   .article-hero h1 { font-size: 34px; }
