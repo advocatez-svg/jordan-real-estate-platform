@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">ملخص تنظيمي لأرض كوم ياجوز في شفا بدران</title>
+  <desc id="desc">لوحة توضيحية تعرض المساحة والتنظيم وعدد الطوابق ونسبة البناء للأرض المعروضة.</desc>
+  <rect width="1600" height="1200" fill="#ffffff"/>
+  <rect x="0" y="0" width="1600" height="132" fill="#173c31"/>
+  <image href="/assets/platform-logo.png" x="1360" y="28" width="76" height="76" preserveAspectRatio="xMidYMid meet"/>
+  <text x="1320" y="72" fill="#ffffff" font-family="Tahoma, Arial, sans-serif" font-size="31" text-anchor="end">منصة العقارات الأردنية</text>
+  <text x="1320" y="103" fill="#d6ad54" font-family="Arial, sans-serif" font-size="19" text-anchor="end">JORDAN REAL ESTATE PLATFORM</text>
+  <text x="144" y="236" fill="#173c31" font-family="Tahoma, Arial, sans-serif" font-size="50" font-weight="700">كوم ياجوز - شفا بدران</text>
+  <text x="144" y="285" fill="#4e615a" font-family="Tahoma, Arial, sans-serif" font-size="28">ملخص تنظيمي توضيحي للأرض المعروضة</text>
+  <line x1="144" y1="328" x2="1456" y2="328" stroke="#dce3dd" stroke-width="3"/>
+  <g transform="translate(144 400)">
+    <rect width="650" height="570" rx="6" fill="#eef3ef" stroke="#b9c8bc" stroke-width="3"/>
+    <path d="M42 122H608M42 274H608M42 426H608M210 42V528M422 42V528" stroke="#ffffff" stroke-width="18"/>
+    <path d="M42 122H608M42 274H608M42 426H608M210 42V528M422 42V528" stroke="#b9c8bc" stroke-width="3"/>
+    <rect x="220" y="132" width="190" height="132" rx="4" fill="#173c31"/>
+    <circle cx="315" cy="168" r="20" fill="#d6ad54"/>
+    <path d="M315 188L280 232H350Z" fill="#d6ad54"/>
+    <text x="315" y="248" fill="#ffffff" font-family="Tahoma, Arial, sans-serif" font-size="24" text-anchor="middle">الأرض المعروضة</text>
+    <text x="42" y="612" fill="#4e615a" font-family="Tahoma, Arial, sans-serif" font-size="21">تمثيل بصري للموقع والتنظيم - بلا بيانات تعريفية</text>
+  </g>
+  <g transform="translate(880 400)" font-family="Tahoma, Arial, sans-serif">
+    <rect width="576" height="130" rx="6" fill="#173c31"/>
+    <text x="288" y="52" fill="#d6ad54" font-size="26" text-anchor="middle">السعر المطلوب</text>
+    <text x="288" y="102" fill="#ffffff" font-size="48" font-weight="700" text-anchor="middle">98,000 دينار</text>
+    <rect y="158" width="276" height="176" rx="6" fill="#f5f8f6" stroke="#dce3dd" stroke-width="2"/>
+    <text x="138" y="212" fill="#4e615a" font-size="24" text-anchor="middle">المساحة</text>
+    <text x="138" y="278" fill="#173c31" font-size="48" font-weight="700" text-anchor="middle">608 م²</text>
+    <rect x="300" y="158" width="276" height="176" rx="6" fill="#f5f8f6" stroke="#dce3dd" stroke-width="2"/>
+    <text x="438" y="212" fill="#4e615a" font-size="24" text-anchor="middle">التنظيم</text>
+    <text x="438" y="278" fill="#173c31" font-size="48" font-weight="700" text-anchor="middle">سكن ج</text>
+    <rect y="362" width="276" height="176" rx="6" fill="#f5f8f6" stroke="#dce3dd" stroke-width="2"/>
+    <text x="138" y="416" fill="#4e615a" font-size="24" text-anchor="middle">البناء المسموح</text>
+    <text x="138" y="482" fill="#173c31" font-size="48" font-weight="700" text-anchor="middle">4 طوابق</text>
+    <rect x="300" y="362" width="276" height="176" rx="6" fill="#f5f8f6" stroke="#dce3dd" stroke-width="2"/>
+    <text x="438" y="416" fill="#4e615a" font-size="24" text-anchor="middle">نسبة البناء</text>
+    <text x="438" y="482" fill="#173c31" font-size="48" font-weight="700" text-anchor="middle">51%</text>
+  </g>
+  <rect x="144" y="1054" width="1312" height="2" fill="#dce3dd"/>
+  <text x="144" y="1112" fill="#173c31" font-family="Tahoma, Arial, sans-serif" font-size="30" font-weight="700">نحو 310 م² للطابق الواحد</text>
+  <text x="144" y="1154" fill="#4e615a" font-family="Tahoma, Arial, sans-serif" font-size="24">شفا بدران - شمال عمان</text>
+</svg>
