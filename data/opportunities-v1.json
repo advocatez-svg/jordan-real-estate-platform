@@ -70,18 +70,18 @@
   {
     "post_number": "5",
     "area": "عبدون",
-    "floor": "روف",
-    "price": "100000",
-    "size": "190",
-    "ppm": "526",
+    "floor": "أرضي",
+    "price": "140000",
+    "size": "205",
+    "ppm": "683",
     "discount_vs_reference_pct": "39",
     "price_comparison_available": true,
     "phone": "0790180000",
     "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
+    "area_confidence": "advertised_area_only",
     "source": "السوق المفتوح",
-    "title": "شقة اخير مع روف 190م في أجمل مناطق ربوة عبدون وبسعر مغري / ref 1384",
-    "url": "https://jo.opensooq.com/ar/search/285248794",
+    "title": "REF:14950 - \tشقة أرضية مفروشة للبيع  – عبدون",
+    "url": "https://jo.opensooq.com/ar/search/284067350",
     "source_bucket": "ground-roof"
   },
   {
@@ -103,6 +103,23 @@
   },
   {
     "post_number": "7",
+    "area": "حي الصحابة",
+    "floor": "الطابق غير مذكور",
+    "price": "90000",
+    "size": "215",
+    "ppm": "419",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة مميزة للبيع في حي الصحابة",
+    "url": "https://jo.opensooq.com/ar/search/284226142",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "85000",
@@ -119,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "8",
+    "post_number": "9",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "110000",
@@ -136,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "10",
     "area": "أم السماق",
     "floor": "الطابق غير مذكور",
     "price": "140000",
@@ -153,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "11",
     "area": "دير غبار",
     "floor": "الطابق غير مذكور",
     "price": "190000",
@@ -170,7 +187,24 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "12",
+    "area": "حي الصحابة",
+    "floor": "طابق أول",
+    "price": "40000",
+    "size": "93",
+    "ppm": "430",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقتين للبيع في حي الصاحبة (قرب عميش) طابق اول وطابق ثاني",
+    "url": "https://jo.opensooq.com/ar/search/284043998",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "13",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -184,40 +218,6 @@
     "source": "Bayut",
     "title": "شقة للبيع بين خلدا وتلاع العلى 170م 3نوم 3حمام بحالة جيدة",
     "url": "https://www.bayut.jo/en/property/details-AH09387873.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "12",
-    "area": "طريق المطار",
-    "floor": "الطابق غير مذكور",
-    "price": "80000",
-    "size": "180",
-    "ppm": "444",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0775714939",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "Distinctive apartment for sale in Airport Road",
-    "url": "https://www.bayut.jo/en/property/details-QE2772021.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "13",
-    "area": "طريق المطار",
-    "floor": "الطابق غير مذكور",
-    "price": "145000",
-    "size": "326",
-    "ppm": "445",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "مالك مباشر",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقة ارضية للبيع في عمان طريق المطار جديدة لم تسكن من المالك مباشرة",
-    "url": "https://jo.opensooq.com/ar/search/284281770",
     "source_bucket": "standard-floor"
   },
   {
