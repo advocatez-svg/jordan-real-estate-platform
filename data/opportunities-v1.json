@@ -35,23 +35,6 @@
   },
   {
     "post_number": "3",
-    "area": "عبدون",
-    "floor": "أرضي",
-    "price": "140000",
-    "size": "205",
-    "ppm": "683",
-    "discount_vs_reference_pct": "40",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "REF:14950 - \tشقة أرضية مفروشة للبيع  – عبدون",
-    "url": "https://jo.opensooq.com/ar/search/284067350",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "4",
     "area": "خلدا",
     "floor": "أرضي",
     "price": "75000",
@@ -68,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "5",
+    "post_number": "4",
     "area": "خلدا",
     "floor": "أرضي",
     "price": "125000",
@@ -82,6 +65,23 @@
     "source": "السوق المفتوح",
     "title": "شقه أرضية جديدة للبيع الشميساني مساحات 160م & 195م مع تراسات و حدائق تشطيبات فاخرة بأسعار مميزة",
     "url": "https://jo.opensooq.com/ar/search/284532660",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "عبدون",
+    "floor": "روف",
+    "price": "100000",
+    "size": "190",
+    "ppm": "526",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "شقة اخير مع روف 190م في أجمل مناطق ربوة عبدون وبسعر مغري / ref 1384",
+    "url": "https://jo.opensooq.com/ar/search/285248794",
     "source_bucket": "ground-roof"
   },
   {
