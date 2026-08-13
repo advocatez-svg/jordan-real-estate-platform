@@ -120,23 +120,6 @@
   },
   {
     "post_number": "8",
-    "area": "أم السماق",
-    "floor": "الطابق غير مذكور",
-    "price": "140000",
-    "size": "300",
-    "ppm": "467",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0790913693",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "4 Bedrooms Apartment For Sale in Um Al Summaq, Amman",
-    "url": "https://www.bayut.jo/en/property/details-79402.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "9",
     "area": "دير غبار",
     "floor": "الطابق غير مذكور",
     "price": "190000",
@@ -153,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "9",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "110000",
@@ -170,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "10",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
     "price": "50000",
@@ -187,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "11",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "80000",
@@ -204,7 +187,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "13",
+    "post_number": "12",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "145000",
@@ -218,6 +201,23 @@
     "source": "السوق المفتوح",
     "title": "شقة ارضية للبيع في عمان طريق المطار جديدة لم تسكن من المالك مباشرة",
     "url": "https://jo.opensooq.com/ar/search/284281770",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "13",
+    "area": "طريق المطار",
+    "floor": "الطابق غير مذكور",
+    "price": "90000",
+    "size": "200",
+    "ppm": "450",
+    "discount_vs_reference_pct": "37",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقق حديثة للبيع بسعر منافس في طريق المطار الحويطي",
+    "url": "https://jo.opensooq.com/ar/search/283578990",
     "source_bucket": "standard-floor"
   },
   {
