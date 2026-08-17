@@ -2,23 +2,6 @@
   {
     "post_number": "1",
     "area": "عبدون",
-    "floor": "روف",
-    "price": "100000",
-    "size": "190",
-    "ppm": "526",
-    "discount_vs_reference_pct": "40",
-    "price_comparison_available": true,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "شقة اخير مع روف 190م في أجمل مناطق ربوة عبدون وبسعر مغري / ref 1384",
-    "url": "https://jo.opensooq.com/ar/search/285248794",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
-    "area": "عبدون",
     "floor": "أرضي",
     "price": "98000",
     "size": "140",
@@ -34,7 +17,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "2",
     "area": "شفا بدران",
     "floor": "روف",
     "price": "84000",
@@ -51,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "3",
     "area": "الجبيهة",
     "floor": "أرضي",
     "price": "170000",
@@ -68,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "5",
+    "post_number": "4",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "110000",
@@ -82,6 +65,23 @@
     "source": "السوق المفتوح",
     "title": "شقة للبيع طريق المطار مقابل كلية لومينوس  225 م مع 80 م مساحة روف",
     "url": "https://jo.opensooq.com/ar/search/281331218",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "دير غبار",
+    "floor": "أرضي",
+    "price": "115000",
+    "size": "133",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة أرضي خلفي يسار للبيع مع حديقة وبير ماء – دير غبار رقم الشقه 203",
+    "url": "https://jo.opensooq.com/ar/search/279771211",
     "source_bucket": "ground-roof"
   },
   {
@@ -155,39 +155,22 @@
   {
     "post_number": "10",
     "area": "حي الصحابة",
-    "floor": "الطابق غير مذكور",
-    "price": "90000",
-    "size": "220",
-    "ppm": "409",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "شقة مساحة 220م مميزة جداً للبيع طابقية كل طابق شقة / اسكان المهندسين مقابل منطقة حي الصحابة",
-    "url": "https://jo.opensooq.com/ar/search/284792558",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "11",
-    "area": "حي الصحابة",
-    "floor": "الطابق غير مذكور",
-    "price": "38000",
+    "floor": "طابق أول",
+    "price": "40000",
     "size": "93",
-    "ppm": "409",
+    "ppm": "430",
     "discount_vs_reference_pct": "38",
     "price_comparison_available": true,
     "phone": "0792310561",
     "advertiser_type": "غير محدد",
     "area_confidence": "advertised_area_only",
     "source": "السوق المفتوح",
-    "title": "شقق البيع دخلة عميش قرب حي الصحابه",
-    "url": "https://jo.opensooq.com/ar/search/284252216",
+    "title": "شقتين للبيع في حي الصاحبة (قرب عميش) طابق اول وطابق ثاني",
+    "url": "https://jo.opensooq.com/ar/search/284043998",
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "11",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "80000",
@@ -204,7 +187,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "13",
+    "post_number": "12",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "145000",
@@ -218,6 +201,23 @@
     "source": "السوق المفتوح",
     "title": "شقة ارضية للبيع في عمان طريق المطار جديدة لم تسكن من المالك مباشرة",
     "url": "https://jo.opensooq.com/ar/search/284281770",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "13",
+    "area": "دابوق",
+    "floor": "الطابق غير مذكور",
+    "price": "140000",
+    "size": "220",
+    "ppm": "636",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0791235111",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "Roof for sale in Dabouq with a terrace, with a total area of 220 m",
+    "url": "https://www.bayut.jo/en/property/details-HMMS3440.html",
     "source_bucket": "standard-floor"
   },
   {
