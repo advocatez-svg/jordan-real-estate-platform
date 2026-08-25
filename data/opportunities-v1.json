@@ -52,23 +52,6 @@
   },
   {
     "post_number": "4",
-    "area": "شفا بدران",
-    "floor": "روف",
-    "price": "84000",
-    "size": "270",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
-    "url": "https://jo.opensooq.com/ar/search/284054616",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
     "area": "أم السماق",
     "floor": "روف",
     "price": "175000",
@@ -82,6 +65,23 @@
     "source": "Bayut",
     "title": "رووف للبيع في الاردن -عمان - ام السماق مساحه 320م  ",
     "url": "https://www.bayut.jo/en/property/details-elitejo2960.html",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "شفا بدران",
+    "floor": "روف",
+    "price": "84000",
+    "size": "270",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
+    "url": "https://jo.opensooq.com/ar/search/284054616",
     "source_bucket": "ground-roof"
   },
   {
