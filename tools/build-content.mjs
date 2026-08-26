@@ -26,7 +26,8 @@ function ensureDir(dir) {
 function write(relativePath, content) {
   const output = path.join(root, relativePath);
   ensureDir(path.dirname(output));
-  fs.writeFileSync(output, `${content.trim().replace(/\r?\n/g, "\r\n")}\r\n`, "utf8");
+  const normalized = content.trim().replace(/[ \t]+(?=\r?\n)/g, "").replace(/\r?\n/g, "\r\n");
+  fs.writeFileSync(output, normalized + "\r\n", "utf8");
 }
 
 function head({ title, description, pathname, image = "/assets/al-samik-social.jpg", type = "website" }) {
@@ -226,11 +227,17 @@ function number(value) {
 }
 
 function displayTitle(item) {
-  const title = item.title.trim();
+  const title = item.title.trim()
+    .replaceAll("مغرري", "مغري")
+    .replaceAll("حي الصاحبة", "حي الصحابة")
+    .replaceAll("حي الصحابه", "حي الصحابة");
   if (/^Apartment for sale$/i.test(title)) return `شقة للبيع في ${item.area}`;
   if (/3 Bedrooms Apartment/i.test(title)) return `شقة 3 غرف نوم للبيع في ${item.area}`;
   if (/4 Bedrooms Apartment/i.test(title)) return `شقة 4 غرف نوم للبيع في ${item.area}`;
   if (/distinctive apartments/i.test(title)) return `شقق مميزة للبيع في ${item.area}`;
+  if (/^Last floor with/i.test(title)) return `شقة طابق أخير مع روف للبيع في ${item.area}`;
+  if (/^Roof for sale in Dabouq/i.test(title)) return "روف للبيع في دابوق مع ترس";
+  if (/^Distinctive apartment for sale in Airport Road$/i.test(title)) return "شقة مميزة للبيع في طريق المطار";
   return title;
 }
 
@@ -362,7 +369,7 @@ function homepageOpportunityCard(item) {
             <p class="content-meta">${esc(item.area)}${floor}</p>
             <h3>${esc(displayTitle(item))}</h3>
             <dl><div><dt>السعر</dt><dd>${number(item.price)} د.أ</dd></div><div><dt>المساحة</dt><dd>${number(item.size)} م²</dd></div><div><dt>سعر المتر</dt><dd>${number(item.ppm)} د.أ</dd></div></dl>
-            <a class="text-link" href="/opportunities/">التفاصيل والمصدر <i data-lucide="arrow-left" aria-hidden="true"></i></a>
+            <a class="text-link" href="${esc(item.url)}" target="_blank" rel="noopener">التفاصيل والمصدر <i data-lucide="arrow-left" aria-hidden="true"></i></a>
           </article>`;
 }
 
