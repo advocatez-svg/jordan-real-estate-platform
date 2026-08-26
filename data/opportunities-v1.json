@@ -69,19 +69,19 @@
   },
   {
     "post_number": "5",
-    "area": "خلدا",
+    "area": "شفا بدران",
     "floor": "روف",
-    "price": "200000",
-    "size": "380",
+    "price": "84000",
+    "size": "270",
     "ppm": "",
     "discount_vs_reference_pct": "",
     "price_comparison_available": false,
-    "phone": "0791235111",
-    "advertiser_type": "وسيط / منصة عقارية",
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
     "area_confidence": "needs_area_verification",
-    "source": "Bayut",
-    "title": "شقة اخير مع روف وترس للبيع في خلدا، مساحة بناء اجمالية 380 م",
-    "url": "https://www.bayut.jo/en/property/details-HMMS2408.html",
+    "source": "السوق المفتوح",
+    "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
+    "url": "https://jo.opensooq.com/ar/search/284054616",
     "source_bucket": "ground-roof"
   },
   {
@@ -103,6 +103,23 @@
   },
   {
     "post_number": "7",
+    "area": "عبدون",
+    "floor": "الطابق غير مذكور",
+    "price": "360000",
+    "size": "550",
+    "ppm": "655",
+    "discount_vs_reference_pct": "40",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة مميزة للبيع في عبدون",
+    "url": "https://jo.opensooq.com/ar/search/285916540",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "8",
     "area": "حي الصحابة",
     "floor": "طابق أول",
     "price": "40000",
@@ -119,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "8",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "79000",
@@ -136,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "10",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -153,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "11",
     "area": "خلدا",
     "floor": "طابق أول",
     "price": "115000",
@@ -170,7 +187,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "12",
     "area": "دير غبار",
     "floor": "الطابق غير مذكور",
     "price": "190000",
@@ -187,7 +204,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "13",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "80000",
@@ -201,23 +218,6 @@
     "source": "Bayut",
     "title": "Distinctive apartment for sale in Airport Road",
     "url": "https://www.bayut.jo/en/property/details-QE2772021.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "13",
-    "area": "دابوق",
-    "floor": "الطابق غير مذكور",
-    "price": "140000",
-    "size": "220",
-    "ppm": "636",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0791235111",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "Roof for sale in Dabouq with a terrace, with a total area of 220 m",
-    "url": "https://www.bayut.jo/en/property/details-HMMS3440.html",
     "source_bucket": "standard-floor"
   },
   {
