@@ -6,7 +6,9 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
 const meta = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-meta-v1.json"), "utf8"));
 const output = process.env.OUTPUT_FILE || path.join(root, "operations", "current-group-posts-v1.md");
-const startDate = new Date(`${process.env.START_DATE || "2026-08-17"}T12:00:00Z`);
+const startDateValue = process.env.START_DATE || new Date().toISOString().slice(0, 10);
+const startDate = new Date(`${startDateValue}T12:00:00Z`);
+const campaignName = process.env.GROUP_CAMPAIGN || `group_inventory_${startDateValue.replaceAll("-", "")}`;
 const times = ["3:00 PM", "6:00 PM", "9:00 PM"];
 const sourceDate = new Intl.DateTimeFormat("ar-JO", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(meta.source_updated_at));
 
@@ -49,7 +51,7 @@ function priceReading(item) {
 
 function post(item, index) {
   const slot = scheduleFor(index);
-  const trackingUrl = `https://jordanpropertyjo.com/opportunities/?utm_source=facebook&utm_medium=organic&utm_campaign=group_inventory_aug17&utm_content=post_${String(index + 1).padStart(2, "0")}`;
+  const trackingUrl = `https://jordanpropertyjo.com/opportunities/?utm_source=facebook&utm_medium=organic&utm_campaign=${campaignName}&utm_content=post_${String(index + 1).padStart(2, "0")}`;
   return `## Post ${String(index + 1).padStart(2, "0")} — ${slot.day} ${slot.iso} — ${slot.time}\n\n` +
 `**Destination:** منصة العقارات الأردنية | Jordan Real Estate Platform  \n` +
 `**Publisher:** Jordan Real Estate Managers  \n` +
@@ -77,7 +79,7 @@ function post(item, index) {
 
 const schedule = opportunities.map((item, index) => {
   const slot = scheduleFor(index);
-  const trackingUrl = `https://jordanpropertyjo.com/opportunities/?utm_source=facebook&utm_medium=organic&utm_campaign=group_inventory_aug17&utm_content=post_${String(index + 1).padStart(2, "0")}`;
+  const trackingUrl = `https://jordanpropertyjo.com/opportunities/?utm_source=facebook&utm_medium=organic&utm_campaign=${campaignName}&utm_content=post_${String(index + 1).padStart(2, "0")}`;
   return `| ${String(index + 1).padStart(2, "0")} | ${slot.iso} | ${slot.time} | ${item.area} | ${item.floor} |`;
 }).join("\n");
 const posts = opportunities.map(post).join("\n---\n\n");
