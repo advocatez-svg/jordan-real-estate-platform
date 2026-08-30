@@ -1,23 +1,6 @@
 [
   {
     "post_number": "1",
-    "area": "طريق المطار",
-    "floor": "روف",
-    "price": "110000",
-    "size": "225",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقة للبيع طريق المطار مقابل كلية لومينوس  225 م مع 80 م مساحة روف",
-    "url": "https://jo.opensooq.com/ar/search/281331218",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
     "area": "أم السماق",
     "floor": "روف",
     "price": "175000",
@@ -34,7 +17,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "2",
     "area": "شفا بدران",
     "floor": "روف",
     "price": "84000",
@@ -51,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "3",
     "area": "عبدون",
     "floor": "أرضي",
     "price": "98000",
@@ -68,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "5",
+    "post_number": "4",
     "area": "الجبيهة",
     "floor": "روف",
     "price": "122000",
@@ -82,6 +65,23 @@
     "source": "السوق المفتوح",
     "title": "شقة اخير مع روف للبيع",
     "url": "https://jo.opensooq.com/ar/search/285685720",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "عبدون",
+    "floor": "روف",
+    "price": "120000",
+    "size": "189",
+    "ppm": "635",
+    "discount_vs_reference_pct": "32",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "في ربوة عبدون شقة أخير مع روف 189م بتشطيب راقي واطلاله مميزة / ref 1385",
+    "url": "https://jo.opensooq.com/ar/search/285248798",
     "source_bucket": "ground-roof"
   },
   {
