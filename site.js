@@ -77,7 +77,47 @@
     });
   }
 
+  function setupRentalFilters() {
+    const buttons = Array.from(document.querySelectorAll("[data-rental-filter-group]"));
+    const cards = Array.from(document.querySelectorAll("[data-rental]"));
+    const count = document.querySelector("#rental-result-count");
+
+    if (!buttons.length || !cards.length) return;
+
+    const state = { furnishing: "all", area: "all" };
+    const applyFilters = () => {
+      let visible = 0;
+      cards.forEach((card) => {
+        const matchesFurnishing = state.furnishing === "all" || card.dataset.furnishing === state.furnishing;
+        const matchesArea = state.area === "all" || card.dataset.area === state.area;
+        const show = matchesFurnishing && matchesArea;
+        card.hidden = !show;
+        if (show) visible += 1;
+      });
+
+      if (count) count.textContent = `${visible} إعلاناً`;
+    };
+
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        const group = button.dataset.rentalFilterGroup;
+        const value = button.dataset.rentalFilterValue;
+        state[group] = value;
+
+        buttons
+          .filter((item) => item.dataset.rentalFilterGroup === group)
+          .forEach((item) => {
+            const active = item === button;
+            item.classList.toggle("is-active", active);
+            item.setAttribute("aria-pressed", String(active));
+          });
+        applyFilters();
+      });
+    });
+  }
+
   setupMobileNavigation();
   renderIcons();
   setupOpportunityFilters();
+  setupRentalFilters();
 }());

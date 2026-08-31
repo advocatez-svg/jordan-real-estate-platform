@@ -5,6 +5,7 @@ import { fileURLToPath } from "node:url";
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const guides = JSON.parse(fs.readFileSync(path.join(root, "data", "guides-v1.json"), "utf8"));
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
+const rentals = JSON.parse(fs.readFileSync(path.join(root, "data", "rentals-v1.json"), "utf8"));
 const opportunityMetaPath = path.join(root, "data", "opportunities-meta-v1.json");
 const opportunityMeta = fs.existsSync(opportunityMetaPath) ? JSON.parse(fs.readFileSync(opportunityMetaPath, "utf8")) : null;
 
@@ -65,6 +66,7 @@ function header() {
   </a>
   <nav class="main-nav" aria-label="التنقل الرئيسي">
     <a href="/opportunities/">شقق للبيع</a>
+    <a href="/rentals/">شقق للإيجار</a>
     <a href="/#lands">أراضٍ</a>
     <a href="/guides/">الدليل العقاري</a>
     <a href="/#projects">المشاريع</a>
@@ -82,6 +84,7 @@ function footer() {
     </a>
     <nav aria-label="روابط الموقع">
       <a href="/opportunities/">شقق للبيع</a>
+      <a href="/rentals/">شقق للإيجار</a>
       <a href="/guides/">الدليل</a>
       <a href="/contact/">التواصل</a>
       <a href="/privacy/">الخصوصية</a>
@@ -286,6 +289,108 @@ function opportunityCard(item) {
   </article>`;
 }
 
+function rentalFurnishing(item) {
+  return item.furnishing === "furnished" ? "مفروشة" : "غير مفروشة";
+}
+
+function rentalCard(item) {
+  return `<article class="opportunity-card rental-card" data-rental data-area="${esc(item.area)}" data-furnishing="${esc(item.furnishing)}">
+    <div class="opportunity-top">
+      <span class="opportunity-area"><i data-lucide="map-pin" aria-hidden="true"></i>${esc(item.area)}</span>
+      <span class="rental-furnishing rental-furnishing-${esc(item.furnishing)}">${esc(rentalFurnishing(item))}</span>
+    </div>
+    <h2>${esc(item.title)}</h2>
+    <div class="opportunity-metrics">
+      <div><span>الأجرة المعلنة</span><strong>${number(item.rent)} د.أ</strong></div>
+      <div><span>الدورية</span><strong>${esc(item.period)}</strong></div>
+      <div><span>المساحة</span><strong>${number(item.size)} م²</strong></div>
+    </div>
+    <p class="rental-detail-line"><strong>الغرف:</strong> ${esc(item.bedrooms)} · <strong>الحمّامات:</strong> ${esc(item.bathrooms)} · <strong>الطابق:</strong> ${esc(item.floor)}</p>
+    <p class="rental-source-note"><i data-lucide="history" aria-hidden="true"></i><span>تاريخ الإعلان في المصدر: ${esc(item.source_listing_date)} · آخر مراجعة للرصد: ${esc(item.checked_on)}.</span></p>
+    <div class="opportunity-actions">
+      <a class="button button-compact button-outline" href="${esc(item.source_url)}" target="_blank" rel="noopener" data-conversion="rental-source" data-source="rentals-${esc(item.id)}"><i data-lucide="external-link" aria-hidden="true"></i>افتح صفحة المصدر</a>
+    </div>
+    <p class="advertiser-line">${esc(item.source)} · حالة الإعلان والأجرة والتفاصيل تحتاج تأكيداً مباشراً من المعلن.</p>
+  </article>`;
+}
+
+function renderRentals() {
+  const areas = [...new Set(rentals.map(item => item.area))];
+  const furnished = rentals.filter(item => item.furnishing === "furnished").length;
+  const unfurnished = rentals.filter(item => item.furnishing === "unfurnished").length;
+  const title = "شقق للإيجار";
+  const description = "رصد أولي لشقق الإيجار المفروشة وغير المفروشة في مناطق محددة من عمان. تحقق من التوفر والأجرة والتفاصيل مع المعلن.";
+  const checkedOn = [...new Set(rentals.map(item => item.checked_on))].pop();
+  const itemList = JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    numberOfItems: rentals.length,
+    itemListElement: rentals.map((item, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      url: item.source_url,
+      name: item.title
+    }))
+  });
+  return `${head({ title, description, pathname: "/rentals/" })}
+<body>
+  ${header()}
+  <main>
+    <section class="content-hero rentals-hero">
+      <div class="wide-inner content-hero-grid">
+        <div>
+          <p class="section-kicker">رصد الإيجارات في المناطق المستهدفة</p>
+          <h1>شقق للإيجار</h1>
+          <p>رصد منفصل لشقق الإيجار المفروشة وغير المفروشة في المناطق السبع نفسها التي نتابعها في البيع. نعرض الأجرة الدورية كما ظهرت في المصدر، بلا مقارنة سعرية أو تصنيف «فرصة».</p>
+          <p class="content-source-note"><i data-lucide="history" aria-hidden="true"></i><span>آخر مراجعة للرصد: ${esc(checkedOn)}. الإعلانات تتغير، لذلك تأكد من التوفر والتفاصيل مع المعلن.</span></p>
+        </div>
+        <div class="content-hero-stat"><strong>${rentals.length}</strong><span>${furnished} مفروشة · ${unfurnished} غير مفروشة</span></div>
+      </div>
+    </section>
+    <section class="opportunity-toolbar rental-toolbar">
+      <div class="wide-inner toolbar-inner">
+        <div>
+          <strong>تصفية الرصد</strong>
+          <span id="rental-result-count">${rentals.length} إعلاناً</span>
+        </div>
+        <div class="rental-filter-groups">
+          <div class="rental-filter-group" role="group" aria-label="تصفية حسب التأثيث">
+            <span>التأثيث</span>
+            <div class="filter-control">
+              <button class="filter-button is-active" type="button" aria-pressed="true" data-rental-filter-group="furnishing" data-rental-filter-value="all">الكل</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-rental-filter-group="furnishing" data-rental-filter-value="furnished">مفروشة</button>
+              <button class="filter-button" type="button" aria-pressed="false" data-rental-filter-group="furnishing" data-rental-filter-value="unfurnished">غير مفروشة</button>
+            </div>
+          </div>
+          <div class="rental-filter-group" role="group" aria-label="تصفية حسب المنطقة">
+            <span>المنطقة</span>
+            <div class="filter-control">
+              <button class="filter-button is-active" type="button" aria-pressed="true" data-rental-filter-group="area" data-rental-filter-value="all">الكل</button>
+              ${areas.map(area => `<button class="filter-button" type="button" aria-pressed="false" data-rental-filter-group="area" data-rental-filter-value="${esc(area)}">${esc(area)}</button>`).join("")}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="index-section">
+      <div class="wide-inner">
+        <div class="opportunity-list">
+          ${rentals.map(rentalCard).join("\\n")}
+        </div>
+        <div class="transparency-note opportunity-disclosure rental-disclosure">
+          <i data-lucide="shield-check" aria-hidden="true"></i>
+          <div><strong>كيف نعرض رصد الإيجارات؟</strong><p>نفرز المفروش وغير المفروش فقط عندما يذكر المصدر ذلك صراحة، ونبقي الأجرة بدوريتها المعلنة. لا يعني ظهور الإعلان أنه ما زال متاحاً أو أن السعر نهائي. راجع صفحة المصدر ثم تواصل مع المعلن قبل أي التزام.</p><a class="text-link" href="/guides/renting-with-clarity/">اقرأ دليل الاستئجار بوضوح <i data-lucide="arrow-left" aria-hidden="true"></i></a></div>
+        </div>
+      </div>
+    </section>
+    ${joinBand("rentals-index")}
+  </main>
+  ${footer()}
+  <script type="application/ld+json">${itemList}</script>
+</body>
+</html>`;
+}
+
 function sourceUpdateLabel() {
   if (!opportunityMeta?.source_updated_at) return "";
   return new Intl.DateTimeFormat("ar-JO", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" }).format(new Date(opportunityMeta.source_updated_at));
@@ -394,6 +499,7 @@ function refreshHomepageOpportunities() {
 write("guides/index.html", renderGuidesIndex());
 for (const guide of guides) write(`guides/${guide.slug}/index.html`, renderGuide(guide));
 write("opportunities/index.html", renderOpportunities());
+write("rentals/index.html", renderRentals());
 refreshHomepageOpportunities();
 
 // Project pages are discovered from disk, not listed by hand: the sitemap is
@@ -411,6 +517,7 @@ function projectPaths() {
 const staticPaths = [
   "/",
   "/opportunities/",
+  "/rentals/",
   "/guides/",
   ...guides.map(guide => `/guides/${guide.slug}/`),
   ...projectPaths(),
@@ -425,4 +532,4 @@ ${staticPaths.map(pathname => `  <url><loc>${SITE}${pathname}</loc><lastmod>${to
 </urlset>`;
 write("sitemap.xml", sitemap);
 
-console.log(`Built ${guides.length} guides and ${opportunities.length} opportunities.`);
+console.log(`Built ${guides.length} guides, ${opportunities.length} sale listings, and ${rentals.length} rental listings.`);

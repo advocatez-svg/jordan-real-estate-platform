@@ -50,6 +50,18 @@ for (const file of htmlFiles) {
 }
 
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
+const rentals = JSON.parse(fs.readFileSync(path.join(root, "data", "rentals-v1.json"), "utf8"));
+const rentalAreas = new Set(["عبدون", "خلدا", "أم السماق", "دير غبار", "شفا بدران", "حي الصحابة", "الجبيهة"]);
+if (rentals.length !== 14) fail(`expected 14 rental listings, found ${rentals.length}`);
+for (const rental of rentals) {
+  const required = ["id", "area", "furnishing", "title", "rent", "period", "size", "bedrooms", "bathrooms", "floor", "source", "source_url", "source_listing_date", "checked_on"];
+  for (const key of required) {
+    if (rental[key] === undefined || rental[key] === null || rental[key] === "") fail(`rental ${rental.id || "unknown"} is missing ${key}`);
+  }
+  if (!rentalAreas.has(rental.area)) fail(`rental ${rental.id} is outside the approved rental areas`);
+  if (!["furnished", "unfurnished"].includes(rental.furnishing)) fail(`rental ${rental.id} has an invalid furnishing classification`);
+  if (!/^https:\/\//.test(rental.source_url)) fail(`rental ${rental.id} has no public source URL`);
+}
 const guides = JSON.parse(fs.readFileSync(path.join(root, "data", "guides-v1.json"), "utf8"));
 const opportunityMeta = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-meta-v1.json"), "utf8"));
 if (!/^[0-9a-f]{40}$/i.test(String(opportunityMeta.source_commit || ""))) fail("opportunity metadata has no valid source commit");
@@ -71,6 +83,13 @@ const cardCount = (opportunitiesHtml.match(/class="opportunity-card"/g) || []).l
 const phoneCount = (opportunitiesHtml.match(/href="tel:/g) || []).length;
 if (cardCount !== opportunities.length) fail(`opportunity card count is ${cardCount}`);
 if (phoneCount !== opportunities.length) fail(`opportunity phone-link count is ${phoneCount}`);
+const rentalsHtml = fs.readFileSync(path.join(root, "rentals", "index.html"), "utf8");
+const rentalCardCount = (rentalsHtml.match(/class="opportunity-card rental-card"/g) || []).length;
+const rentalSourceCount = (rentalsHtml.match(/data-conversion="rental-source"/g) || []).length;
+if (rentalCardCount !== rentals.length) fail("rental card count is " + rentalCardCount);
+if (rentalSourceCount !== rentals.length) fail("rental source-link count is " + rentalSourceCount);
+if (rentalsHtml.includes('href="tel:')) fail("rental inventory must not expose copied phone numbers");
+if (rentalsHtml.includes("سعر المتر")) fail("rental inventory must not display sale price-per-square-metre logic");
 
 const sitemap = fs.readFileSync(path.join(root, "sitemap.xml"), "utf8");
 for (const match of sitemap.matchAll(/<loc>https:\/\/jordanpropertyjo\.com(.*?)<\/loc>/g)) {
