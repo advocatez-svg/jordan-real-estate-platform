@@ -50,6 +50,8 @@ function head({ title, description, pathname, image = "/assets/al-samik-social.j
   <meta name="theme-color" content="#173c31">
   <link rel="icon" href="/assets/platform-logo.png" type="image/png">
   <link rel="stylesheet" href="/site.css">
+  <link rel="stylesheet" href="/analytics.css">
+  <script src="/analytics.js" defer></script>
   <script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js" defer></script>
   <script src="/site.js" defer></script>
 </head>`;

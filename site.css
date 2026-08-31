@@ -679,3 +679,34 @@ a:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
 @media (max-width: 680px) {
   .related-guide-grid { grid-template-columns: 1fr; }
 }
+
+.analytics-notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid #dce4df;
+  border-bottom: 1px solid #dce4df;
+  color: #17221f;
+  font-family: Tahoma, Arial, sans-serif;
+  line-height: 1.55;
+}
+
+.analytics-notice p {
+  margin: 0;
+  color: #5f6d68;
+  font-size: 12px;
+}
+
+.analytics-notice a {
+  flex: 0 0 auto;
+  color: #173c31;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  .analytics-notice {
+    align-items: flex-start;
+    flex-direction: column;
