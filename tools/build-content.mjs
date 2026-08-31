@@ -64,7 +64,7 @@ function header() {
     <span><strong>منصة العقارات الأردنية</strong><small>Jordan Real Estate Platform</small></span>
   </a>
   <nav class="main-nav" aria-label="التنقل الرئيسي">
-    <a href="/opportunities/">الفرص</a>
+    <a href="/opportunities/">شقق للبيع</a>
     <a href="/#lands">أراضٍ</a>
     <a href="/guides/">الدليل العقاري</a>
     <a href="/#projects">المشاريع</a>
@@ -81,7 +81,7 @@ function footer() {
       <span><strong>منصة العقارات الأردنية</strong><small>jordanpropertyjo.com</small></span>
     </a>
     <nav aria-label="روابط الموقع">
-      <a href="/opportunities/">الفرص</a>
+      <a href="/opportunities/">شقق للبيع</a>
       <a href="/guides/">الدليل</a>
       <a href="/contact/">التواصل</a>
       <a href="/privacy/">الخصوصية</a>
