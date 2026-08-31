@@ -375,7 +375,7 @@ function renderRentals() {
     <section class="index-section">
       <div class="wide-inner">
         <div class="opportunity-list">
-          ${rentals.map(rentalCard).join("\\n")}
+          ${rentals.map(rentalCard).join("\n")}
         </div>
         <div class="transparency-note opportunity-disclosure rental-disclosure">
           <i data-lucide="shield-check" aria-hidden="true"></i>
