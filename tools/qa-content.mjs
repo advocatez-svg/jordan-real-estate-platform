@@ -52,7 +52,14 @@ for (const file of htmlFiles) {
 const opportunities = JSON.parse(fs.readFileSync(path.join(root, "data", "opportunities-v1.json"), "utf8"));
 const rentals = JSON.parse(fs.readFileSync(path.join(root, "data", "rentals-v1.json"), "utf8"));
 const rentalAreas = new Set(["عبدون", "خلدا", "أم السماق", "دير غبار", "شفا بدران", "حي الصحابة", "الجبيهة"]);
-if (rentals.length !== 14) fail(`expected 14 rental listings, found ${rentals.length}`);
+if (rentals.length < 28) fail(`expected at least 28 rental listings, found ${rentals.length}`);
+for (const area of rentalAreas) {
+  const inArea = rentals.filter(rental => rental.area === area);
+  if (inArea.length < 4) fail(`rental inventory needs at least four listings in ${area}`);
+  for (const furnishing of ["furnished", "unfurnished"]) {
+    if (inArea.filter(rental => rental.furnishing === furnishing).length < 2) fail(`rental inventory needs at least two ${furnishing} listings in ${area}`);
+  }
+}
 for (const rental of rentals) {
   const required = ["id", "area", "furnishing", "title", "rent", "period", "size", "bedrooms", "bathrooms", "floor", "source", "source_url", "source_listing_date", "checked_on"];
   for (const key of required) {
