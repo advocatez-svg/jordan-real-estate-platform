@@ -1,6 +1,23 @@
 [
   {
     "post_number": "1",
+    "area": "خلدا",
+    "floor": "أرضي",
+    "price": "75000",
+    "size": "150",
+    "ppm": "500",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0799999238",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "deed_area_extracted",
+    "source": "Bayut",
+    "title": "شقة أرضية للبيع عرقوب خلدا 150م مدخل مستقل تراس امامى بسعر مميز",
+    "url": "https://www.bayut.jo/en/property/details-AH684994.html",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "2",
     "area": "أم السماق",
     "floor": "روف",
     "price": "175000",
@@ -17,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "2",
+    "post_number": "3",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "110000",
@@ -34,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "4",
     "area": "خلدا",
     "floor": "روف",
     "price": "200000",
@@ -51,7 +68,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "5",
     "area": "عبدون",
     "floor": "أرضي",
     "price": "98000",
@@ -65,23 +82,6 @@
     "source": "السوق المفتوح",
     "title": "بالقرب من السفارة الأمريكية شقة أرضية 140م في أجمل مناطق عبدون / ref 1097",
     "url": "https://jo.opensooq.com/ar/search/285248708",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
-    "area": "شفا بدران",
-    "floor": "روف",
-    "price": "84000",
-    "size": "270",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
-    "url": "https://jo.opensooq.com/ar/search/284054616",
     "source_bucket": "ground-roof"
   },
   {
