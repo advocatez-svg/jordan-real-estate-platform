@@ -154,23 +154,6 @@
   },
   {
     "post_number": "10",
-    "area": "خلدا",
-    "floor": "الطابق غير مذكور",
-    "price": "79000",
-    "size": "180",
-    "ppm": "439",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0790913693",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "3 Bedrooms Apartment For Sale Khalda, Amman",
-    "url": "https://www.bayut.jo/en/property/details-106703.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "11",
     "area": "عبدون",
     "floor": "الطابق غير مذكور",
     "price": "170000",
@@ -184,6 +167,23 @@
     "source": "السوق المفتوح",
     "title": "شقة طابقية للبيع  عبدون _قرب سفارة اوكرانية  (كاملة المواصفات ) شقة العمر",
     "url": "https://jo.opensooq.com/ar/search/284992898",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "11",
+    "area": "خلدا",
+    "floor": "الطابق غير مذكور",
+    "price": "79000",
+    "size": "180",
+    "ppm": "439",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0790913693",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "3 Bedrooms Apartment For Sale Khalda, Amman",
+    "url": "https://www.bayut.jo/en/property/details-106703.html",
     "source_bucket": "standard-floor"
   },
   {
