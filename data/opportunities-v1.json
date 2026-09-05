@@ -103,23 +103,6 @@
   },
   {
     "post_number": "7",
-    "area": "عبدون",
-    "floor": "طابق ثاني",
-    "price": "75000",
-    "size": "125",
-    "ppm": "600",
-    "discount_vs_reference_pct": "40",
-    "price_comparison_available": true,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقة فاخرة للبيع في عبدون  - قرب إشارة السفارة الأمريكية طابق ثاني 125م بسعر مغري",
-    "url": "https://jo.opensooq.com/ar/search/286576968",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "8",
     "area": "حي الصحابة",
     "floor": "الطابق غير مذكور",
     "price": "85000",
@@ -136,7 +119,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "8",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "65000",
@@ -153,30 +136,13 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
-    "area": "عبدون",
-    "floor": "الطابق غير مذكور",
-    "price": "170000",
-    "size": "280",
-    "ppm": "607",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقة طابقية للبيع  عبدون _قرب سفارة اوكرانية  (كاملة المواصفات ) شقة العمر",
-    "url": "https://jo.opensooq.com/ar/search/284992898",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "11",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "79000",
     "size": "180",
     "ppm": "439",
-    "discount_vs_reference_pct": "38",
+    "discount_vs_reference_pct": "39",
     "price_comparison_available": true,
     "phone": "0790913693",
     "advertiser_type": "وسيط / منصة عقارية",
@@ -187,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "10",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -204,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "13",
+    "post_number": "11",
     "area": "دير غبار",
     "floor": "الطابق غير مذكور",
     "price": "190000",
@@ -218,6 +184,40 @@
     "source": "Bayut",
     "title": "Last floor with a distinctive roof for sale in the most beautiful areas of Deir Ghbar, an area of ​​​​365 m, at the price of a snapshot",
     "url": "https://www.bayut.jo/en/property/details-QU4172022.html",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "12",
+    "area": "عبدون",
+    "floor": "الطابق غير مذكور",
+    "price": "175000",
+    "size": "295",
+    "ppm": "593",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقه للبيع كردور عبدون",
+    "url": "https://jo.opensooq.com/ar/search/286207404",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "13",
+    "area": "عبدون",
+    "floor": "طابق ثاني",
+    "price": "75000",
+    "size": "125",
+    "ppm": "600",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة فاخرة للبيع في عبدون  - قرب إشارة السفارة الأمريكية طابق ثاني 125م بسعر مغري",
+    "url": "https://jo.opensooq.com/ar/search/286576968",
     "source_bucket": "standard-floor"
   },
   {
