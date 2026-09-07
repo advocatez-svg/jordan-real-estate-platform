@@ -1,23 +1,6 @@
 [
   {
     "post_number": "1",
-    "area": "خلدا",
-    "floor": "أرضي",
-    "price": "98000",
-    "size": "190",
-    "ppm": "516",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "شقة أرضية للبيع في خلدا 190م مدخل مستقل وكراج خاص وحديقة وتراسات واسعة",
-    "url": "https://jo.opensooq.com/ar/search/285269920",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
     "area": "أم السماق",
     "floor": "روف",
     "price": "175000",
@@ -34,7 +17,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "2",
     "area": "الجبيهة",
     "floor": "أرضي",
     "price": "170000",
@@ -51,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "3",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "110000",
@@ -68,11 +51,11 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "5",
-    "area": "خلدا",
-    "floor": "أرضي",
-    "price": "108000",
-    "size": "205",
+    "post_number": "4",
+    "area": "شفا بدران",
+    "floor": "روف",
+    "price": "84000",
+    "size": "270",
     "ppm": "",
     "discount_vs_reference_pct": "",
     "price_comparison_available": false,
@@ -80,8 +63,25 @@
     "advertiser_type": "غير محدد",
     "area_confidence": "needs_area_verification",
     "source": "السوق المفتوح",
-    "title": "شقة أرضية مميزة للبيع في خلدا  - مقابل ميداس وخلف مستشفى السعودي 205م مع حديقة 200م بسعر مغري",
-    "url": "https://jo.opensooq.com/ar/search/286569120",
+    "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
+    "url": "https://jo.opensooq.com/ar/search/284054616",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "الجبيهة",
+    "floor": "روف",
+    "price": "85000",
+    "size": "250",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة طابق ثالث مع روف في الجبيهة للبيع",
+    "url": "https://jo.opensooq.com/ar/search/286471338",
     "source_bucket": "ground-roof"
   },
   {
