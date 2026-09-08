@@ -23,7 +23,7 @@
     "price": "170000",
     "size": "500",
     "ppm": "340",
-    "discount_vs_reference_pct": "38",
+    "discount_vs_reference_pct": "37",
     "price_comparison_available": true,
     "phone": "0792310561",
     "advertiser_type": "غير محدد",
@@ -35,6 +35,23 @@
   },
   {
     "post_number": "3",
+    "area": "خلدا",
+    "floor": "أرضي",
+    "price": "115000",
+    "size": "260",
+    "ppm": "442",
+    "discount_vs_reference_pct": "37",
+    "price_comparison_available": true,
+    "phone": "0792310561",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة أرضية مفروشة سوبر ديلوكس للبيع في خلدا SL2011",
+    "url": "https://jo.opensooq.com/ar/search/285880224",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "4",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "110000",
@@ -51,7 +68,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "5",
     "area": "شفا بدران",
     "floor": "روف",
     "price": "84000",
@@ -65,23 +82,6 @@
     "source": "السوق المفتوح",
     "title": "شقه طابق ثالث مع روف في شفا بدران للبيع بسعر مغرري",
     "url": "https://jo.opensooq.com/ar/search/284054616",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
-    "area": "الجبيهة",
-    "floor": "روف",
-    "price": "85000",
-    "size": "250",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0792310561",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقة طابق ثالث مع روف في الجبيهة للبيع",
-    "url": "https://jo.opensooq.com/ar/search/286471338",
     "source_bucket": "ground-roof"
   },
   {
