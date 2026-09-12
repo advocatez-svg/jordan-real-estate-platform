@@ -35,6 +35,23 @@
   },
   {
     "post_number": "3",
+    "area": "طريق المطار",
+    "floor": "روف",
+    "price": "135000",
+    "size": "300",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0783359882",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة  فاخررررة دوبلكس (اخير مع روف) للبيع طريق المطار",
+    "url": "https://jo.opensooq.com/ar/search/286997314",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "4",
     "area": "خلدا",
     "floor": "أرضي",
     "price": "115000",
@@ -51,7 +68,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "5",
     "area": "الجبيهة",
     "floor": "روف",
     "price": "85000",
@@ -65,23 +82,6 @@
     "source": "السوق المفتوح",
     "title": "شقة طابق ثالث مع روف في الجبيهة للبيع",
     "url": "https://jo.opensooq.com/ar/search/286471338",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
-    "area": "عبدون",
-    "floor": "روف",
-    "price": "120000",
-    "size": "200",
-    "ppm": "600",
-    "discount_vs_reference_pct": "35",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "في أرقى مناطق ربوة عبدون شقة أخير مع روف 200م بتشطيبات راقية / ref 9630",
-    "url": "https://jo.opensooq.com/ar/search/286657970",
     "source_bucket": "ground-roof"
   },
   {
