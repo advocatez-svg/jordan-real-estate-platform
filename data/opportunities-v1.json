@@ -1,6 +1,23 @@
 [
   {
     "post_number": "1",
+    "area": "عبدون",
+    "floor": "روف",
+    "price": "120000",
+    "size": "200",
+    "ppm": "600",
+    "discount_vs_reference_pct": "40",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "في أرقى مناطق ربوة عبدون شقة أخير مع روف 200م بتشطيبات راقية / ref 9630",
+    "url": "https://jo.opensooq.com/ar/search/286657970",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "2",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "135000",
@@ -17,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "2",
+    "post_number": "3",
     "area": "خلدا",
     "floor": "أرضي",
     "price": "125000",
@@ -34,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "4",
     "area": "الجبيهة",
     "floor": "روف",
     "price": "69000",
@@ -48,23 +65,6 @@
     "source": "السوق المفتوح",
     "title": "شقة ثالث مع روف لقطة",
     "url": "https://jo.opensooq.com/ar/search/287091116",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "4",
-    "area": "الجبيهة",
-    "floor": "أرضي",
-    "price": "170000",
-    "size": "500",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقة أرضية الجبيهة قرب مسبح تولين",
-    "url": "https://jo.opensooq.com/ar/search/285478876",
     "source_bucket": "ground-roof"
   },
   {
