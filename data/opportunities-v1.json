@@ -86,6 +86,23 @@
   },
   {
     "post_number": "6",
+    "area": "الجبيهة",
+    "floor": "الطابق غير مذكور",
+    "price": "57000",
+    "size": "181",
+    "ppm": "315",
+    "discount_vs_reference_pct": "40",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "فرصة مميزة للبيع - شقة مفروشة مقابل الجامعة الأردنية",
+    "url": "https://jo.opensooq.com/ar/search/284377162",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "7",
     "area": "خلدا",
     "floor": "طابق ثاني",
     "price": "89000",
@@ -102,13 +119,13 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "7",
+    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "86000",
     "size": "204",
     "ppm": "422",
-    "discount_vs_reference_pct": "39",
+    "discount_vs_reference_pct": "40",
     "price_comparison_available": true,
     "phone": "0790180000",
     "advertiser_type": "غير محدد",
@@ -119,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "8",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "83000",
@@ -136,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "10",
     "area": "أم السماق",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -153,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "11",
     "area": "أم السماق",
     "floor": "الطابق غير مذكور",
     "price": "87000",
@@ -170,7 +187,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "12",
     "area": "دير غبار",
     "floor": "الطابق غير مذكور",
     "price": "190000",
@@ -187,7 +204,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "13",
     "area": "حي الصحابة",
     "floor": "الطابق غير مذكور",
     "price": "69000",
@@ -201,23 +218,6 @@
     "source": "السوق المفتوح",
     "title": "شقه للبيع حي الصحابه",
     "url": "https://jo.opensooq.com/ar/search/287081506",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "13",
-    "area": "طريق المطار",
-    "floor": "الطابق غير مذكور",
-    "price": "65000",
-    "size": "150",
-    "ppm": "433",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقه فاخره للبيع في طريق المطار بالقرب من فندق اوبال",
-    "url": "https://jo.opensooq.com/ar/search/286828626",
     "source_bucket": "standard-floor"
   },
   {
@@ -312,7 +312,7 @@
     "price": "65000",
     "size": "170",
     "ppm": "382",
-    "discount_vs_reference_pct": "16",
+    "discount_vs_reference_pct": "17",
     "price_comparison_available": true,
     "phone": "0795486466",
     "advertiser_type": "وسيط / منصة عقارية",
@@ -329,7 +329,7 @@
     "price": "55000",
     "size": "143",
     "ppm": "385",
-    "discount_vs_reference_pct": "16",
+    "discount_vs_reference_pct": "17",
     "price_comparison_available": true,
     "phone": "0777777771",
     "advertiser_type": "وسيط / منصة عقارية",
