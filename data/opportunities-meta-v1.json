@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "source_ref": "HEAD",
+  "source_ref": "origin/main",
   "source_commit": "f7459367c6ca066d4c33d38e6ba1ecab8b285b24",
   "source_updated_at": "2026-09-17T21:56:38Z",
   "source_files": [
