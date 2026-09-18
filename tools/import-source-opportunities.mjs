@@ -32,7 +32,7 @@ function suspiciousDeedArea(item) {
 function normalize(item, bucket, postNumber) {
   const advertised = number(item.advertised_size);
   const suspicious = suspiciousDeedArea(item);
-  const requiresConfirmedArea = bucket === "ground-roof" || /أرضي|ارضي|روف|ground|roof/i.test(String(item.ft || ""));
+  const requiresConfirmedArea = bucket === "ground-roof" || /أرضي|ارضي|روف|ground|roof/i.test(`${item.ft || ""} ${item.title || ""}`);
   const confirmedArea = item.area_confidence === "deed_area_extracted" && number(item.internal_size) > 0;
   const confidence = suspicious || (requiresConfirmedArea && !confirmedArea)
     ? "needs_area_verification" : (item.area_confidence || "advertised_area_only");

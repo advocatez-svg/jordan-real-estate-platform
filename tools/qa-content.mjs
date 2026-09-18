@@ -57,7 +57,7 @@ if (opportunityMeta.total !== opportunities.length) fail("opportunity metadata t
 for (const item of opportunities.filter(item => item.area_confidence === "needs_area_verification")) {
   if (item.ppm || item.discount_vs_reference_pct || item.price_comparison_available !== false) fail(`ambiguous opportunity ${item.post_number} exposes an unsupported price comparison`);
 }
-for (const item of opportunities.filter(item => item.source_bucket === "ground-roof" || /أرضي|ارضي|روف|ground|roof/i.test(String(item.floor || "")))) {
+for (const item of opportunities.filter(item => item.source_bucket === "ground-roof" || /أرضي|ارضي|روف|ground|roof/i.test(`${item.floor || ""} ${item.title || ""}`))) {
   if (item.area_confidence !== "deed_area_extracted" && (item.ppm || item.discount_vs_reference_pct || item.price_comparison_available !== false)) fail(`ground/roof opportunity ${item.post_number} compares prices without confirmed deed area`);
 }
 if (opportunities.length !== 21) fail(`expected 21 opportunities, found ${opportunities.length}`);
