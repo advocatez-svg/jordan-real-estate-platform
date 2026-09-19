@@ -1,23 +1,6 @@
 [
   {
     "post_number": "1",
-    "area": "أم السماق",
-    "floor": "روف",
-    "price": "175000",
-    "size": "320",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0797020207",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "needs_area_verification",
-    "source": "Bayut",
-    "title": "رووف للبيع في الاردن -عمان - ام السماق مساحه 320م  ",
-    "url": "https://www.bayut.jo/en/property/details-elitejo2960.html",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "135000",
@@ -34,7 +17,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "2",
     "area": "عبدون",
     "floor": "روف",
     "price": "120000",
@@ -51,7 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "3",
     "area": "عبدون",
     "floor": "روف",
     "price": "115000",
@@ -68,7 +51,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "5",
+    "post_number": "4",
     "area": "الجبيهة",
     "floor": "روف",
     "price": "69000",
@@ -82,6 +65,23 @@
     "source": "السوق المفتوح",
     "title": "شقة ثالث مع روف لقطة",
     "url": "https://jo.opensooq.com/ar/search/287091116",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "خلدا",
+    "floor": "أرضي",
+    "price": "125000",
+    "size": "300",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0791671285",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة طابق أرضي مميزة للبيع في خلدا / عرقوب خلدا",
+    "url": "https://jo.opensooq.com/ar/search/286707420",
     "source_bucket": "ground-roof"
   },
   {
