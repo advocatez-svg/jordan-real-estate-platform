@@ -35,6 +35,23 @@
   },
   {
     "post_number": "3",
+    "area": "عبدون",
+    "floor": "روف",
+    "price": "120000",
+    "size": "189",
+    "ppm": "635",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "في ربوة عبدون شقة أخير مع روف 189م بتشطيب راقي واطلاله مميزة / ref 1385",
+    "url": "https://jo.opensooq.com/ar/search/288264326",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "4",
     "area": "شفا بدران",
     "floor": "روف",
     "price": "88000",
@@ -51,7 +68,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "5",
     "area": "طريق المطار",
     "floor": "روف",
     "price": "135000",
@@ -65,23 +82,6 @@
     "source": "السوق المفتوح",
     "title": "شقة  فاخررررة دوبلكس (اخير مع روف) للبيع طريق المطار",
     "url": "https://jo.opensooq.com/ar/search/286997314",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
-    "area": "دابوق",
-    "floor": "روف",
-    "price": "250000",
-    "size": "420",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "رووف طابقي للبيع دابوق مساحة 420م مع تراسات تشطيبات و ديكورات سوبر ديلوكس اطلالة رائعة",
-    "url": "https://jo.opensooq.com/ar/search/287777718",
     "source_bucket": "ground-roof"
   },
   {
