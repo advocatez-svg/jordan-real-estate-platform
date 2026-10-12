@@ -1,6 +1,23 @@
 [
   {
     "post_number": "1",
+    "area": "شفا بدران",
+    "floor": "روف",
+    "price": "88000",
+    "size": "300",
+    "ppm": "293",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "شقة مع روف جديدة مساحة 300 متر للبيع",
+    "url": "https://jo.opensooq.com/ar/search/288332138",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "2",
     "area": "عبدون",
     "floor": "روف",
     "price": "120000",
@@ -14,23 +31,6 @@
     "source": "السوق المفتوح",
     "title": "في ربوة عبدون شقة أخير مع روف 189م بتشطيب راقي واطلاله مميزة / ref 1385",
     "url": "https://jo.opensooq.com/ar/search/288264326",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
-    "area": "شفا بدران",
-    "floor": "روف",
-    "price": "88000",
-    "size": "300",
-    "ppm": "293",
-    "discount_vs_reference_pct": "38",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "شقة مع روف جديدة مساحة 300 متر للبيع",
-    "url": "https://jo.opensooq.com/ar/search/288332138",
     "source_bucket": "ground-roof"
   },
   {
@@ -69,19 +69,19 @@
   },
   {
     "post_number": "5",
-    "area": "طريق المطار",
+    "area": "خلدا",
     "floor": "روف",
-    "price": "135000",
-    "size": "300",
+    "price": "92000",
+    "size": "200",
     "ppm": "",
     "discount_vs_reference_pct": "",
     "price_comparison_available": false,
-    "phone": "0783359882",
+    "phone": "0799413815",
     "advertiser_type": "غير محدد",
     "area_confidence": "needs_area_verification",
     "source": "السوق المفتوح",
-    "title": "شقة  فاخررررة دوبلكس (اخير مع روف) للبيع طريق المطار",
-    "url": "https://jo.opensooq.com/ar/search/286997314",
+    "title": "شقه للبيع طابق اول و روف  وطابق ارضي بجانب سيتي مول بسعر لقطه و روف للبيع عده مناطق",
+    "url": "https://jo.opensooq.com/ar/search/287777786",
     "source_bucket": "ground-roof"
   },
   {
