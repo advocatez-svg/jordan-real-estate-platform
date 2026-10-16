@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "source_ref": "HEAD",
-  "source_commit": "d7b265be3b0912fe805b314bde4efe40550da9bd",
-  "source_updated_at": "2026-10-15T16:21:49Z",
+  "source_commit": "8bb24af6a20218f67cb7fb2c91316a3901b2d66e",
+  "source_updated_at": "2026-10-15T21:57:16Z",
   "source_files": [
     "data/top_deals.json",
     "data/standard_floor_top_deals.json",
