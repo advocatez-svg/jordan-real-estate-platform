@@ -275,6 +275,23 @@
     "post_number": "17",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
+    "price": "98000",
+    "size": "235",
+    "ppm": "417",
+    "discount_vs_reference_pct": "20",
+    "price_comparison_available": true,
+    "phone": "0799737500",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "4 Bedrooms Apartment For Sale Al Jubaiha, Amman",
+    "url": "https://www.bayut.jo/en/property/details-107708.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "18",
+    "area": "الجبيهة",
+    "floor": "الطابق غير مذكور",
     "price": "55000",
     "size": "130",
     "ppm": "423",
@@ -289,7 +306,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "18",
+    "post_number": "19",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "65000",
@@ -306,7 +323,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "19",
+    "post_number": "20",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "55000",
@@ -323,7 +340,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "20",
+    "post_number": "21",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "59000",
@@ -337,23 +354,6 @@
     "source": "Bayut",
     "title": "3 Bedrooms Apartment For Sale Shafa Badran, Amman",
     "url": "https://www.bayut.jo/en/property/details-108258.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "21",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "75000",
-    "size": "190",
-    "ppm": "395",
-    "discount_vs_reference_pct": "16",
-    "price_comparison_available": true,
-    "phone": "0798080768",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "distinctive apartments for sale in the most beautiful areas of Amman - Shafa Badran - Al Koum area 190 m , 195 m",
-    "url": "https://www.bayut.jo/en/property/details-DKT6234.html",
     "source_bucket": "middle-class"
   }
 ]
