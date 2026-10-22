@@ -86,6 +86,23 @@
   },
   {
     "post_number": "6",
+    "area": "الجبيهة",
+    "floor": "الطابق غير مذكور",
+    "price": "50000",
+    "size": "160",
+    "ppm": "313",
+    "discount_vs_reference_pct": "40",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة للبيع الجبيهة ام زويتينه مقابل مدارس نجمة الفريد لم تسكن بسعر مناسب",
+    "url": "https://jo.opensooq.com/ar/search/287618924",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "7",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "82000",
@@ -99,23 +116,6 @@
     "source": "Bayut",
     "title": "Apartment For Sale In Airport Road",
     "url": "https://www.bayut.jo/en/property/details-KN13019.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "7",
-    "area": "الجبيهة",
-    "floor": "الطابق غير مذكور",
-    "price": "50000",
-    "size": "160",
-    "ppm": "313",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقة للبيع الجبيهة ام زويتينه مقابل مدارس نجمة الفريد لم تسكن بسعر مناسب",
-    "url": "https://jo.opensooq.com/ar/search/287618924",
     "source_bucket": "standard-floor"
   },
   {
