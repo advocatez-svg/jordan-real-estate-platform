@@ -86,23 +86,6 @@
   },
   {
     "post_number": "6",
-    "area": "الجبيهة",
-    "floor": "الطابق غير مذكور",
-    "price": "50000",
-    "size": "160",
-    "ppm": "313",
-    "discount_vs_reference_pct": "40",
-    "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "advertised_area_only",
-    "source": "السوق المفتوح",
-    "title": "شقة للبيع الجبيهة ام زويتينه مقابل مدارس نجمة الفريد لم تسكن بسعر مناسب",
-    "url": "https://jo.opensooq.com/ar/search/287618924",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "7",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "82000",
@@ -119,7 +102,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "8",
+    "post_number": "7",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
     "price": "88000",
@@ -136,7 +119,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -153,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "130000",
@@ -167,6 +150,23 @@
     "source": "السوق المفتوح",
     "title": "Spacious Duplex in the Heart of Khalda",
     "url": "https://jo.opensooq.com/ar/search/286221878",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "10",
+    "area": "أم السماق",
+    "floor": "الطابق غير مذكور",
+    "price": "70000",
+    "size": "155",
+    "ppm": "452",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0786657158",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "شقة مجددة للبيع في أم السماق – خلف فندق الموفنبيك  بسعر مميز",
+    "url": "https://jo.opensooq.com/ar/search/289082706",
     "source_bucket": "standard-floor"
   },
   {
@@ -239,6 +239,23 @@
   },
   {
     "post_number": "15",
+    "area": "شفا بدران",
+    "floor": "الطابق غير مذكور",
+    "price": "65000",
+    "size": "170",
+    "ppm": "382",
+    "discount_vs_reference_pct": "20",
+    "price_comparison_available": true,
+    "phone": "0795486466",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "شقق فاخرة باسعار منافسة نقدا او بالتقسيط",
+    "url": "https://www.bayut.jo/en/property/details-4126113.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "16",
     "area": "الجبيهة",
     "floor": "طابق ثاني",
     "price": "69000",
@@ -252,23 +269,6 @@
     "source": "Bayut",
     "title": "شقة طابق ثاني في الجبيهة للبيع | 167م2",
     "url": "https://www.bayut.jo/en/property/details-OPT282.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "16",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "65000",
-    "size": "170",
-    "ppm": "382",
-    "discount_vs_reference_pct": "19",
-    "price_comparison_available": true,
-    "phone": "0795486466",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "شقق فاخرة باسعار منافسة نقدا او بالتقسيط",
-    "url": "https://www.bayut.jo/en/property/details-4126113.html",
     "source_bucket": "middle-class"
   },
   {
