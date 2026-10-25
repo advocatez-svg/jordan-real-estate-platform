@@ -256,6 +256,23 @@
   },
   {
     "post_number": "16",
+    "area": "شفا بدران",
+    "floor": "الطابق غير مذكور",
+    "price": "55000",
+    "size": "143",
+    "ppm": "385",
+    "discount_vs_reference_pct": "20",
+    "price_comparison_available": true,
+    "phone": "0777777771",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "شقة جديدة للبيع بشفا بدران الكوم بسعر مميز",
+    "url": "https://www.bayut.jo/en/property/details-7187934.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "17",
     "area": "الجبيهة",
     "floor": "طابق ثاني",
     "price": "69000",
@@ -269,23 +286,6 @@
     "source": "Bayut",
     "title": "شقة طابق ثاني في الجبيهة للبيع | 167م2",
     "url": "https://www.bayut.jo/en/property/details-OPT282.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "17",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "55000",
-    "size": "143",
-    "ppm": "385",
-    "discount_vs_reference_pct": "19",
-    "price_comparison_available": true,
-    "phone": "0777777771",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "شقة جديدة للبيع بشفا بدران الكوم بسعر مميز",
-    "url": "https://www.bayut.jo/en/property/details-7187934.html",
     "source_bucket": "middle-class"
   },
   {
