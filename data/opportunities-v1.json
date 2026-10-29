@@ -1,6 +1,23 @@
 [
   {
     "post_number": "1",
+    "area": "الجبيهة",
+    "floor": "روف",
+    "price": "92000",
+    "size": "300",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقه طابق ثالث مع روف منفصل  للبيع",
+    "url": "https://jo.opensooq.com/ar/search/287664222",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "2",
     "area": "أم السماق",
     "floor": "روف",
     "price": "123000",
@@ -14,23 +31,6 @@
     "source": "السوق المفتوح",
     "title": "شقة طابق أخير مع روف للبيع خلدا مساحة 235م مع تراسات تشطيبات سوبر ديلوكس اطلالة رائعة بسعر مميز جداً",
     "url": "https://jo.opensooq.com/ar/search/289188760",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
-    "area": "دابوق",
-    "floor": "روف",
-    "price": "250000",
-    "size": "420",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "رووف طابقي للبيع دابوق مساحة 420م مع تراسات تشطيبات و ديكورات سوبر ديلوكس اطلالة رائعة",
-    "url": "https://jo.opensooq.com/ar/search/287777718",
     "source_bucket": "ground-roof"
   },
   {
