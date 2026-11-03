@@ -88,9 +88,9 @@
     "post_number": "6",
     "area": "طريق المطار",
     "floor": "الطابق غير مذكور",
-    "price": "82000",
-    "size": "202",
-    "ppm": "406",
+    "price": "88000",
+    "size": "215",
+    "ppm": "409",
     "discount_vs_reference_pct": "40",
     "price_comparison_available": true,
     "phone": "0799121266",
@@ -98,7 +98,7 @@
     "area_confidence": "advertised_area_only",
     "source": "Bayut",
     "title": "Apartment For Sale In Airport Road",
-    "url": "https://www.bayut.jo/en/property/details-KN13019.html",
+    "url": "https://www.bayut.jo/en/property/details-KN241748.html",
     "source_bucket": "standard-floor"
   },
   {
@@ -120,23 +120,6 @@
   },
   {
     "post_number": "8",
-    "area": "طريق المطار",
-    "floor": "الطابق غير مذكور",
-    "price": "88000",
-    "size": "215",
-    "ppm": "409",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0799121266",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "Apartment For Sale In Airport Road",
-    "url": "https://www.bayut.jo/en/property/details-KN241748.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "85000",
@@ -153,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -170,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "10",
     "area": "أم السماق",
     "floor": "الطابق غير مذكور",
     "price": "70000",
@@ -187,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "12",
+    "post_number": "11",
     "area": "أم السماق",
     "floor": "طابق أول",
     "price": "73000",
@@ -204,7 +187,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "13",
+    "post_number": "12",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "85000",
@@ -218,6 +201,23 @@
     "source": "السوق المفتوح",
     "title": "شقة للبيع خلدا",
     "url": "https://jo.opensooq.com/ar/search/288172006",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "13",
+    "area": "خلدا",
+    "floor": "الطابق غير مذكور",
+    "price": "83000",
+    "size": "185",
+    "ppm": "449",
+    "discount_vs_reference_pct": "38",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "deed_area_extracted",
+    "source": "السوق المفتوح",
+    "title": "شقة لقطة خلدا قرب السيفوي 185م بسعر 83 الف",
+    "url": "https://jo.opensooq.com/ar/search/284592862",
     "source_bucket": "standard-floor"
   },
   {
