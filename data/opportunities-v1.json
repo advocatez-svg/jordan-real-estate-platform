@@ -103,23 +103,6 @@
   },
   {
     "post_number": "7",
-    "area": "دير غبار",
-    "floor": "الطابق غير مذكور",
-    "price": "190000",
-    "size": "365",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0775714939",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "needs_area_verification",
-    "source": "Bayut",
-    "title": "Last floor with a distinctive roof for sale in the most beautiful areas of Deir Ghbar, an area of ​​​​365 m, at the price of a snapshot",
-    "url": "https://www.bayut.jo/en/property/details-QU4172022.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "85000",
@@ -136,7 +119,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -153,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "9",
     "area": "أم السماق",
     "floor": "الطابق غير مذكور",
     "price": "70000",
@@ -170,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "11",
+    "post_number": "10",
     "area": "أم السماق",
     "floor": "طابق أول",
     "price": "73000",
@@ -184,6 +167,23 @@
     "source": "السوق المفتوح",
     "title": "ام السماق شقه للبيع مساحة 160 متر طابق اول بسعر  73  الف دينار",
     "url": "https://jo.opensooq.com/ar/search/287853406",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "11",
+    "area": "عبدون",
+    "floor": "الطابق غير مذكور",
+    "price": "79000",
+    "size": "130",
+    "ppm": "608",
+    "discount_vs_reference_pct": "39",
+    "price_comparison_available": true,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "advertised_area_only",
+    "source": "السوق المفتوح",
+    "title": "ref:14993 - شقة للبيع في عبدون",
+    "url": "https://jo.opensooq.com/ar/search/289389992",
     "source_bucket": "standard-floor"
   },
   {
@@ -212,12 +212,12 @@
     "ppm": "449",
     "discount_vs_reference_pct": "38",
     "price_comparison_available": true,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "deed_area_extracted",
-    "source": "السوق المفتوح",
-    "title": "شقة لقطة خلدا قرب السيفوي 185م بسعر 83 الف",
-    "url": "https://jo.opensooq.com/ar/search/284592862",
+    "phone": "0790418902",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "3 Bedroom Apartment For Sale in Khalda, Amman",
+    "url": "https://www.bayut.jo/en/property/details-109724.html",
     "source_bucket": "standard-floor"
   },
   {
@@ -256,6 +256,40 @@
   },
   {
     "post_number": "16",
+    "area": "شفا بدران",
+    "floor": "الطابق غير مذكور",
+    "price": "65000",
+    "size": "170",
+    "ppm": "382",
+    "discount_vs_reference_pct": "19",
+    "price_comparison_available": true,
+    "phone": "0795486466",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "شقق فاخرة باسعار منافسة نقدا او بالتقسيط",
+    "url": "https://www.bayut.jo/en/property/details-4126113.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "17",
+    "area": "شفا بدران",
+    "floor": "الطابق غير مذكور",
+    "price": "55000",
+    "size": "143",
+    "ppm": "385",
+    "discount_vs_reference_pct": "19",
+    "price_comparison_available": true,
+    "phone": "0777777771",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "شقة جديدة للبيع بشفا بدران الكوم بسعر مميز",
+    "url": "https://www.bayut.jo/en/property/details-7187934.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "18",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
     "price": "40000",
@@ -272,7 +306,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "17",
+    "post_number": "19",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
     "price": "98000",
@@ -286,40 +320,6 @@
     "source": "Bayut",
     "title": "4 Bedrooms Apartment For Sale Al Jubaiha, Amman",
     "url": "https://www.bayut.jo/en/property/details-107708.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "18",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "65000",
-    "size": "170",
-    "ppm": "382",
-    "discount_vs_reference_pct": "18",
-    "price_comparison_available": true,
-    "phone": "0795486466",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "شقق فاخرة باسعار منافسة نقدا او بالتقسيط",
-    "url": "https://www.bayut.jo/en/property/details-4126113.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "19",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "55000",
-    "size": "143",
-    "ppm": "385",
-    "discount_vs_reference_pct": "18",
-    "price_comparison_available": true,
-    "phone": "0777777771",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "شقة جديدة للبيع بشفا بدران الكوم بسعر مميز",
-    "url": "https://www.bayut.jo/en/property/details-7187934.html",
     "source_bucket": "middle-class"
   },
   {
@@ -346,7 +346,7 @@
     "price": "75000",
     "size": "190",
     "ppm": "395",
-    "discount_vs_reference_pct": "15",
+    "discount_vs_reference_pct": "16",
     "price_comparison_available": true,
     "phone": "0798080768",
     "advertiser_type": "وسيط / منصة عقارية",
