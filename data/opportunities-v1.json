@@ -1,23 +1,6 @@
 [
   {
     "post_number": "1",
-    "area": "أم السماق",
-    "floor": "روف",
-    "price": "175000",
-    "size": "320",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0797020207",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "needs_area_verification",
-    "source": "Bayut",
-    "title": "رووف للبيع في الاردن -عمان - ام السماق مساحه 320م  ",
-    "url": "https://www.bayut.jo/en/property/details-elitejo2960.html",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "2",
     "area": "دير غبار",
     "floor": "روف",
     "price": "210000",
@@ -34,7 +17,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "3",
+    "post_number": "2",
     "area": "دير غبار",
     "floor": "روف",
     "price": "210000",
@@ -51,24 +34,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
-    "area": "ضاحية النخيل",
-    "floor": "أرضي",
-    "price": "155000",
-    "size": "357",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقة مميزة في موقع مميز في ضاحية النخيل أرضية( دوبلكس) 357م مع حديقة / ref 9439",
-    "url": "https://jo.opensooq.com/ar/search/289167228",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
+    "post_number": "3",
     "area": "خلدا",
     "floor": "روف",
     "price": "200000",
@@ -82,6 +48,40 @@
     "source": "Bayut",
     "title": "شقة اخير مع روف وترس للبيع في خلدا، مساحة بناء اجمالية 380 م",
     "url": "https://www.bayut.jo/en/property/details-HMMS2408.html",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "4",
+    "area": "أم السماق",
+    "floor": "أرضي",
+    "price": "140000",
+    "size": "250",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة أرضية دوبلكس للبيع ام السماق مساحة 250م مع ترس وحديقة 150م بسعر مميز جداً",
+    "url": "https://jo.opensooq.com/ar/search/288644770",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "خلدا",
+    "floor": "أرضي",
+    "price": "95000",
+    "size": "165",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0790180000",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة أرضية مميزة للبيع في خلدا  قرب المعارف 165م مع حديقة وترسات 150م بسعر مغري",
+    "url": "https://jo.opensooq.com/ar/search/289085840",
     "source_bucket": "ground-roof"
   },
   {
