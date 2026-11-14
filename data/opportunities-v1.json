@@ -35,6 +35,23 @@
   },
   {
     "post_number": "3",
+    "area": "طريق المطار",
+    "floor": "روف",
+    "price": "109000",
+    "size": "225",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0787549609",
+    "advertiser_type": "غير محدد",
+    "area_confidence": "needs_area_verification",
+    "source": "السوق المفتوح",
+    "title": "شقة للبيع طريق المطار مقابل كلية لومينوس  225 م مع 80 م مساحة روف",
+    "url": "https://jo.opensooq.com/ar/search/290025886",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "4",
     "area": "أم السماق",
     "floor": "أرضي",
     "price": "140000",
@@ -51,7 +68,7 @@
     "source_bucket": "ground-roof"
   },
   {
-    "post_number": "4",
+    "post_number": "5",
     "area": "خلدا",
     "floor": "أرضي",
     "price": "95000",
@@ -65,23 +82,6 @@
     "source": "السوق المفتوح",
     "title": "شقة أرضية مميزة للبيع في خلدا  قرب المعارف 165م مع حديقة وترسات 150م بسعر مغري",
     "url": "https://jo.opensooq.com/ar/search/289085840",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
-    "area": "خلدا",
-    "floor": "أرضي",
-    "price": "78000",
-    "size": "135",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "شقة أرضية مميزة للبيع في خلدا - خلف ميداس 135م مع ترسات 35م تشطيب سوبر ديلوكس",
-    "url": "https://jo.opensooq.com/ar/search/289317470",
     "source_bucket": "ground-roof"
   },
   {
