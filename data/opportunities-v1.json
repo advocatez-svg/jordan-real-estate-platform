@@ -86,6 +86,23 @@
   },
   {
     "post_number": "6",
+    "area": "خلدا",
+    "floor": "الطابق غير مذكور",
+    "price": "75000",
+    "size": "170",
+    "ppm": "441",
+    "discount_vs_reference_pct": "40",
+    "price_comparison_available": true,
+    "phone": "0799999238",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "شقة للبيع بين خلدا وتلاع العلى 170م 3نوم 3حمام بحالة جيدة",
+    "url": "https://www.bayut.jo/en/property/details-AH09387873.html",
+    "source_bucket": "standard-floor"
+  },
+  {
+    "post_number": "7",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
     "price": "130000",
@@ -102,7 +119,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "7",
+    "post_number": "8",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "83000",
@@ -119,7 +136,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "8",
+    "post_number": "9",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "83000",
@@ -136,7 +153,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "9",
+    "post_number": "10",
     "area": "خلدا",
     "floor": "طابق أول",
     "price": "83000",
@@ -153,7 +170,7 @@
     "source_bucket": "standard-floor"
   },
   {
-    "post_number": "10",
+    "post_number": "11",
     "area": "خلدا",
     "floor": "الطابق غير مذكور",
     "price": "72000",
@@ -167,23 +184,6 @@
     "source": "Bayut",
     "title": "3 Bedrooms Apartment For Sale Khalda, Amman",
     "url": "https://www.bayut.jo/en/property/details-100028.html",
-    "source_bucket": "standard-floor"
-  },
-  {
-    "post_number": "11",
-    "area": "خلدا",
-    "floor": "الطابق غير مذكور",
-    "price": "190000",
-    "size": "420",
-    "ppm": "452",
-    "discount_vs_reference_pct": "39",
-    "price_comparison_available": true,
-    "phone": "0790913693",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "6-Bedroom Apartment For Sale in Khalda, Amman",
-    "url": "https://www.bayut.jo/en/property/details-60157.html",
     "source_bucket": "standard-floor"
   },
   {
@@ -216,8 +216,8 @@
     "advertiser_type": "غير محدد",
     "area_confidence": "advertised_area_only",
     "source": "السوق المفتوح",
-    "title": "شقة للبيع ام السماق خلف مطاعم ورد 175م",
-    "url": "https://jo.opensooq.com/ar/search/290122554",
+    "title": "شقة للبيع خلف مطعم ورد وفندق الموفنبيك 175م سوبر ديلوكس بسعر مغري",
+    "url": "https://jo.opensooq.com/ar/search/289033858",
     "source_bucket": "standard-floor"
   },
   {
@@ -275,6 +275,23 @@
     "post_number": "17",
     "area": "الجبيهة",
     "floor": "الطابق غير مذكور",
+    "price": "98000",
+    "size": "235",
+    "ppm": "417",
+    "discount_vs_reference_pct": "24",
+    "price_comparison_available": true,
+    "phone": "0799737500",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "advertised_area_only",
+    "source": "Bayut",
+    "title": "4 Bedrooms Apartment For Sale Al Jubaiha, Amman",
+    "url": "https://www.bayut.jo/en/property/details-107708.html",
+    "source_bucket": "middle-class"
+  },
+  {
+    "post_number": "18",
+    "area": "الجبيهة",
+    "floor": "الطابق غير مذكور",
     "price": "55000",
     "size": "130",
     "ppm": "423",
@@ -289,7 +306,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "18",
+    "post_number": "19",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "65000",
@@ -306,7 +323,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "19",
+    "post_number": "20",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "55000",
@@ -323,7 +340,7 @@
     "source_bucket": "middle-class"
   },
   {
-    "post_number": "20",
+    "post_number": "21",
     "area": "شفا بدران",
     "floor": "الطابق غير مذكور",
     "price": "75000",
@@ -337,23 +354,6 @@
     "source": "Bayut",
     "title": "distinctive apartments for sale in the most beautiful areas of Amman - Shafa Badran - Al Koum area 190 m , 195 m",
     "url": "https://www.bayut.jo/en/property/details-DKT6234.html",
-    "source_bucket": "middle-class"
-  },
-  {
-    "post_number": "21",
-    "area": "شفا بدران",
-    "floor": "الطابق غير مذكور",
-    "price": "57000",
-    "size": "144",
-    "ppm": "396",
-    "discount_vs_reference_pct": "18",
-    "price_comparison_available": true,
-    "phone": "0777777771",
-    "advertiser_type": "وسيط / منصة عقارية",
-    "area_confidence": "advertised_area_only",
-    "source": "Bayut",
-    "title": "Apartment for sale",
-    "url": "https://www.bayut.jo/en/property/details-7129761.html",
     "source_bucket": "middle-class"
   }
 ]
