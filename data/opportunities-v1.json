@@ -52,23 +52,6 @@
   },
   {
     "post_number": "4",
-    "area": "عبدون",
-    "floor": "روف",
-    "price": "180000",
-    "size": "330",
-    "ppm": "",
-    "discount_vs_reference_pct": "",
-    "price_comparison_available": false,
-    "phone": "0790180000",
-    "advertiser_type": "غير محدد",
-    "area_confidence": "needs_area_verification",
-    "source": "السوق المفتوح",
-    "title": "روف طابقي فاخر للبيع في عبدون - قرب السفارة البريطانية 330م مع ترسات 30م تشطيب سوبر ديلوكس بسعر مغري",
-    "url": "https://jo.opensooq.com/ar/search/290307846",
-    "source_bucket": "ground-roof"
-  },
-  {
-    "post_number": "5",
     "area": "دير غبار",
     "floor": "روف",
     "price": "195000",
@@ -82,6 +65,23 @@
     "source": "السوق المفتوح",
     "title": "شقة طابقية مميزة للبيع في دير غبار - طابق ثالث مع روف خاص مساحة 312م",
     "url": "https://jo.opensooq.com/ar/search/290350084",
+    "source_bucket": "ground-roof"
+  },
+  {
+    "post_number": "5",
+    "area": "خلدا",
+    "floor": "روف",
+    "price": "200000",
+    "size": "380",
+    "ppm": "",
+    "discount_vs_reference_pct": "",
+    "price_comparison_available": false,
+    "phone": "0791235111",
+    "advertiser_type": "وسيط / منصة عقارية",
+    "area_confidence": "needs_area_verification",
+    "source": "Bayut",
+    "title": "شقة اخير مع روف وترس للبيع في خلدا، مساحة بناء اجمالية 380 م",
+    "url": "https://www.bayut.jo/en/property/details-HMMS2408.html",
     "source_bucket": "ground-roof"
   },
   {
